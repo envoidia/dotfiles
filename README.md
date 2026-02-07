@@ -1,0 +1,1 @@
+My personal config for some things, hosted on Github so I can easily copy between computers. You can use if you want
