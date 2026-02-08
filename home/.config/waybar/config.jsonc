@@ -10,6 +10,7 @@
       "clock",
       "pulseaudio",
       "cpu",
+      "custom/gpu",
       "memory"
     ],
 
@@ -32,13 +33,21 @@
 
     "cpu": {
         "interval": 30,
-        "format": " {usage:>2}%"
+        "format": " {usage:>2}%",
+        "on-click": "plasma-systemmonitor"
     },
 
     "memory": {
         "interval": 30,
         "format": "  {used:0.1f}GB",
-        "tooltip-format": "Memory"
+        "on-click": "plasma-systemmonitor"
+    },
+
+    "custom/gpu": {
+        "interval": 30,
+        "format": "󰾲 {}%",
+        "exec": "nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits",
+        "on-click": "plasma-systemmonitor"
     }
 
 }

@@ -18,7 +18,7 @@
 
 #workspaces {
     padding: 0.3rem 0.7rem;
-    margin-left: 7px;
+    margin-left: 11px;
     margin-right: 5px;
 }
 
@@ -38,7 +38,7 @@
     color: @text;
 }
 
-#clock, #pulseaudio, #cpu, #memory {
+#clock, #pulseaudio, #cpu, #custom-gpu, #memory {
     padding: 0.3rem 0.7rem;
     margin: 5px 0px; 
     border-radius: 0;
@@ -47,8 +47,14 @@
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
     color: @text;
     background-color: @bg;
+    outline: 3px;
+    outline-color: @accent;
 }
 
-#clock:hover, #pulseaudio:hover, #cpu:hover, #memory:hover {
+#clock:hover, #pulseaudio:hover, #cpu:hover, #custom-gpu:hover, #memory:hover {
     background-color: @bg-light;
+}
+
+#memory {
+    margin-right: 20px;
 }
