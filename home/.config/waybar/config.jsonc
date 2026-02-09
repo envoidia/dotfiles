@@ -3,7 +3,12 @@
     "spacing" : 0,
 
     "modules-left": [
-        "hyprland/workspaces"
+        "hyprland/workspaces",
+        "hyprland/window"
+    ],
+
+    "modules-center": [
+        "custom/recording"
     ],
 
     "modules-right": [
@@ -48,6 +53,15 @@
         "format": "󰾲 {}%",
         "exec": "nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits",
         "on-click": "plasma-systemmonitor"
+    },
+
+    "custom/recording": {
+        "exec-if": "pgrep -f gpu-screen-recorder",
+        "exec": "~/.config/waybar/recording_indicator.sh",
+        "on-click": "pkill -f gpu-screen-recorder",
+        "return-type": "json",
+        "interval": 5,
+        "format": "{}"
     }
 
 }

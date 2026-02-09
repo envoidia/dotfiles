@@ -11,50 +11,66 @@
 
 #waybar {
     background: transparent;
-    color: @text;
     margin: 0px;
     font-weight: 500;
 }
 
 #workspaces {
+    padding-left: 0.3rem;
+    margin-left: 16px;
+}
+
+#window {
     padding: 0.3rem 0.7rem;
-    margin-left: 11px;
-    margin-right: 5px;
+    margin: 5px 0px; 
+    color: @text;
+    background-color: @bg;
+    border-radius: 0;
 }
 
 #workspaces button {
+    color: @text;
     padding: 0.3rem 0.6rem;
+    margin: 5px 0px 5px 0px;
     background-color: @bg;
     border-radius: 0;
 }
 
 #workspaces button.active {
-    color: @text;
+    color: white;
     background-color: @bg-light;
 }
 
 #workspaces button:hover {
+    color: white;
     background: @bg-light;
-    color: @text;
+    border-color: @bg-light;
 }
 
 #clock, #pulseaudio, #cpu, #custom-gpu, #memory {
     padding: 0.3rem 0.7rem;
     margin: 5px 0px; 
-    border-radius: 0;
-    box-shadow: none;
-    min-width: 0;
-    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
     color: @text;
     background-color: @bg;
-    outline: 3px;
-    outline-color: @accent;
-}
-
-#clock:hover, #pulseaudio:hover, #cpu:hover, #custom-gpu:hover, #memory:hover {
-    background-color: @bg-light;
 }
 
 #memory {
     margin-right: 20px;
+}
+
+#clock:hover, #pulseaudio:hover, #cpu:hover, #custom-gpu:hover, #memory:hover, #window:hover {
+    color: white;
+    background-color: @bg-light;
+}
+
+#custom-recording {
+    padding: 0.3rem 0.7rem;
+    margin: 5px 0px; 
+    color: @accent;
+    background-color: @accent-dark;
+}
+
+#custom-recording:hover {
+    color: @accent-light;
+    background-color: @accent;
 }

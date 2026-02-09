@@ -16,7 +16,7 @@ dstl:
     theme:
         border = "#73bed3"
         focus = "#a673d3"
-        highlight = "#a673d3"
+        highlight = "#bb94de"
         cursor_shape = "pipe"
         cursor_blink_interval = 500  # milliseconds, 0 to disable
         border_style = "plain"
