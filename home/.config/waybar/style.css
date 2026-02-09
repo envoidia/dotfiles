@@ -28,6 +28,10 @@
     border-radius: 0;
 }
 
+#waybar.empty #window {
+    opacity: 0;
+}
+
 #workspaces button {
     color: @text;
     padding: 0.3rem 0.6rem;
