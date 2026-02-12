@@ -29,7 +29,34 @@ function fish_greeting
         "I've become what you like\nI am what you've wanted,\nRight!?" \
         "Everything Ends as Ashes" \
         "I will not die until I achieve something. Even though the ideal is high, I never give in. Therefore, I never die with regrets." \
-        "Something wonderful has happened...\nFISH is alive !!!"
+        "Something wonderful has happened...\nFISH is alive !!!" \
+        "still, morning comes\nand you can't outrun\nthe warm glow of the sun" \
+        "I'm still preying on a butcher's vein\nStill praying, hopeless and in vain." \
+        "I've said it's incomplete so many times, hey\nTrapped inside a love I know I can't escape" \
+        "Tie it in, Tie it in\nWith a cord to connect\nSee a world ruled in madness and fear\nTake it in, Take it in\nThrough your veins and again\nFeed the PArAsITe year after year" \
+        "What can you see with eyes wide open?\nBut can you see with eyes wide open?" \
+        "An everlasting dream where you set me free\nWe could be shining brighter than the stars\nSo could you hold me tighter, leave me scarred?" \
+        "When you look at me, who do you remember?\nBroken memories, time we spent together\nTell me honestly, do you recognize my voice?" \
+        "The memories I made of you and me, won't go away" \
+        "\"I will roll again today I know for sure\"" \
+        "The more you love, the more it becomes your weakness,\nAnd yet I could not throw it away" \
+        "There are flowers that rotted away even after being given love" \
+        "There were all kinds of love\nBut you were no longer here" \
+        "Counting days like numbers, they all pass their prime\nAnd again hypnotically swimming through time" \
+        "can you teach me to be real?" \
+        "If you stare directly at reality,\nyou'll end up going blind!\nSo, do it in moderation (^^ ♪" \
+        "But I still couldn't die\nWith you by my side" \
+        "I Know, I Know That I'm Full Of 「Abnormality」\nSo I'll Go And Sew A New Identity" \
+        "There's a universe of positivity beyond the sky" \
+        "Together we can recreate a new start" \
+        "A new constellation will lead us to boundless odyssey" \
+        "I don't care if it's through the screen, love me properly\nEven if I'm virtual, don't push me away" \
+        "The fear of never knowing finally bit the dust" \
+        "I'd rather be my own best friend than my worst enemy" \
+        "I'm one day closer to being who I wanna be" \
+        "Everything that happened was for the best" \
+        "bleed out for audience approval\ntragic but perfectly on schedule" \
+        "you think by now that we would've learned\nbehind every piece of art is a human to be heard."
 
     set -l idx (random 1 (count $greetings))
     set_color brcyan
