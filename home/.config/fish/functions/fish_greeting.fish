@@ -28,7 +28,8 @@ function fish_greeting
         "Ignorance is bliss, the fruit of knowledge is rotten" \
         "I've become what you like\nI am what you've wanted,\nRight!?" \
         "Everything Ends as Ashes" \
-        "I will not die until I achieve something. Even though the ideal is high, I never give in. Therefore, I never die with regrets."
+        "I will not die until I achieve something. Even though the ideal is high, I never give in. Therefore, I never die with regrets." \
+        "Something wonderful has happened...\nFISH is alive !!!"
 
     set -l idx (random 1 (count $greetings))
     set_color brcyan
