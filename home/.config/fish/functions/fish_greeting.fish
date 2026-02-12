@@ -23,8 +23,8 @@ function fish_greeting
         "Rip it up, try again until it's clean" \
         "Can you see the blood rushing from my veins?\nIt spurts with every brush stroke, blending with the pain" \
         "Tell me honestly, do you recognize my voice?" \
-        "Two lonely and broken souls leaning on each other’s sides\nI’m glad that you’re you, that I’m me, and for us two\nI’m kinda glad that you’re evil too" \
-        "Cut the cord, burn the witch and\nYou’ll regret what you’re missing" \
+        "Two lonely and broken souls leaning on each other's sides\nI'm glad that you're you, that I'm me, and for us two\nI'm kinda glad that you're evil too" \
+        "Cut the cord, burn the witch and\nYou'll regret what you're missing" \
         "Ignorance is bliss, the fruit of knowledge is rotten" \
         "I've become what you like\nI am what you've wanted,\nRight!?" \
         "Everything Ends as Ashes" \
