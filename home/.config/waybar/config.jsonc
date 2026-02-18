@@ -37,8 +37,8 @@
     },
 
     "cpu": {
-        "interval": 30,
-        "format": " {usage:>2}%",
+    "interval": 30,
+    "format": " {usage:>2}%",
         "on-click": "plasma-systemmonitor"
     },
 
@@ -50,8 +50,8 @@
 
     "custom/gpu": {
         "interval": 30,
-        "format": "󰾲 {}%",
-        "exec": "nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits",
+        "format": "󰾲 {}",
+        "exec": "~/.config/waybar/gpu_usage.sh",
         "on-click": "plasma-systemmonitor"
     },
 
@@ -60,7 +60,7 @@
         "exec": "~/.config/waybar/recording_indicator.sh",
         "on-click": "pkill -f gpu-screen-recorder",
         "return-type": "json",
-        "interval": 5,
+        "interval": 1,
         "format": "{}"
     }
 
