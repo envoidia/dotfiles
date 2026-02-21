@@ -1,9 +1,5 @@
-export PATH="$PATH:/usr/share/dotnet"
-export DOTNET_ROOT="/usr/share/dotnet/"
-export PATH="$PATH:/home/envoidia/.dotnet/tools"
-
 alias ls=lsd
+alias lsi="timg --upscale --grid=6 --frames=1 *"
 
-if status is-interactive
-# Commands to run in interactive sessions can go here
-end
+set DOTNET_ROOT "/usr/share/dotnet/"
+set PATH "$PATH:/usr/share/dotnet:/home/envoidia/.dotnet/tools"
