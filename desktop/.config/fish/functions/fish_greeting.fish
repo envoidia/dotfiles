@@ -14,7 +14,7 @@ function fish_greeting
         "It's never too late\nTo fall in love with the world\nYour past is not today\nSo set your stride with a twirl" \
         "Hold hands, die together? Neverland\nI'd get tangled up with you again in a heartbeat\nA space for just us two, now and forever\nThere's no world in which I'd give you away" \
         "The Tower's gonna fall, and you'll silently rebuild it all" \
-        "Covered in cuts from head toe\nA kinky kind of crazy, not enough\nCan you feel it too?\nThe kind of pain made out of real love" \
+        "Covered in cuts from head to toe\nA kinky kind of crazy, not enough\nCan you feel it too?\nThe kind of pain made out of real love" \
         "It's funny what an angel you think you've been" \
         "Think I'm at the end of a road traveled far too long" \
         "Brain about to break , I'm crazy no matter what I say!! I'm lost and drunk on darkness,\nHey! Peek-a- Peek-a-boo Hey! Peek-a-boo-hoo! X (Failed) you!" \
@@ -22,7 +22,6 @@ function fish_greeting
         "The echo in the mirror" \
         "Rip it up, try again until it's clean" \
         "Can you see the blood rushing from my veins?\nIt spurts with every brush stroke, blending with the pain" \
-        "Tell me honestly, do you recognize my voice?" \
         "Two lonely and broken souls leaning on each other's sides\nI'm glad that you're you, that I'm me, and for us two\nI'm kinda glad that you're evil too" \
         "Cut the cord, burn the witch and\nYou'll regret what you're missing" \
         "Ignorance is bliss, the fruit of knowledge is rotten" \
@@ -40,7 +39,7 @@ function fish_greeting
         "The memories I made of you and me, won't go away" \
         "\"I will roll again today I know for sure\"" \
         "The more you love, the more it becomes your weakness,\nAnd yet I could not throw it away" \
-        "There are flowers that rotted away even after being given love" \
+        "A terrifying “I want you” — sheer coercion\nAn unheard “I hate you” — distorted affection\nThere are flowers that rotted away even after being given love" \
         "There were all kinds of love\nBut you were no longer here" \
         "Counting days like numbers, they all pass their prime\nAnd again hypnotically swimming through time" \
         "can you teach me to be real?" \
