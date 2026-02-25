@@ -9,7 +9,7 @@ function cbc -d "Copies text and files"
         if test -f "$input"
             set mime (xdg-mime query filetype "$input" 2>/dev/null)
 
-            # Pretend JPEGs are PNGs because many apps only let you paste in PNGs
+            # Pretend JPEGs are PNGs because I can't paste JPEGs otherwise (wl-clipboard bug?)
             if test "$mime" = "image/jpeg"
                 wl-copy --type image/png < "$input"
             else
