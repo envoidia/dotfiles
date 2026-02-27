@@ -1,7 +1,7 @@
 alias ls="lsd -A"
 alias lst="lsd -A --tree"
 alias cbp=wl-paste
-alias drd=dragon-drop
+alias drd="dragon-drop --and-exit"
 alias fd="fd -iH"
 alias rg="rg -i --hidden"
 alias du="du -h"

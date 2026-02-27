@@ -42,7 +42,9 @@ function fish_greeting
         "A terrifying “I want you” — sheer coercion\nAn unheard “I hate you” — distorted affection\nThere are flowers that rotted away even after being given love" \
         "There were all kinds of love\nBut you were no longer here" \
         "Counting days like numbers, they all pass their prime\nAnd again hypnotically swimming through time" \
-        "can you teach me to be real?" \
+        "Zero, cross the great divide" \
+        "Can you teach me to be real?" \
+        "I want it to be true, to be like you\nMy heart sings a chorus out of tune" \
         "If you stare directly at reality,\nyou'll end up going blind!\nSo, do it in moderation (^^ ♪" \
         "But I still couldn't die\nWith you by my side" \
         "I Know, I Know That I'm Full Of 「Abnormality」\nSo I'll Go And Sew A New Identity" \
@@ -57,8 +59,8 @@ function fish_greeting
         "bleed out for audience approval\ntragic but perfectly on schedule" \
         "you think by now that we would've learned\nbehind every piece of art is a human to be heard."
 
-    set -l idx (random 1 (count $greetings))
+    set -l i (random 1 (count $greetings))
     set_color brcyan
-    echo -e $greetings[$idx]
+    echo -e $greetings[$i]
     set_color normal
 end
