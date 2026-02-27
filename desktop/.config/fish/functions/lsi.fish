@@ -10,16 +10,16 @@ function lsi -d "Show a grid of image previews"
     if not set -q _flag_c
         set _flag_c 8
     end
-        
-    set -l files
 
     set -l glob
 
     if set -q _flag_R
-        set glob {,**/}*
+        set glob **/*
     else
         set glob *
     end
+
+    set -l files
 
     if test (count $argv) -eq 0
         for f in $glob
@@ -37,6 +37,6 @@ function lsi -d "Show a grid of image previews"
         end
 
     end
-    
+
     timg --upscale --grid=$_flag_c --frames=1 --title $files
 end
