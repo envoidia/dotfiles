@@ -1,6 +1,6 @@
 function fish_greeting
     set -l greetings \
-        "Hold my hand as veins run cold" \
+        "hold my hand as veins run cold" \
         "\"You have remained long enough in this filthy world.\" Then, all the locked doors opened, untouched--" \
         "I think I'm addicted, I'm addicted to love" \
         "To follow knowledge like a sinking star, Beyond the utmost bound of human thought" \

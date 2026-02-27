@@ -1,0 +1,13 @@
+/**
+ * @name Names
+ * @author envoidia
+ * @version 20/02/26
+ * @description Changes the style of specific user's names on Discord. Add your friends!
+ * @source https://github.com/envoidia/discord-css
+ * @website https://envoidia.neocities.org
+ */
+
+[data-text="envoidia♡"], [data-text="@envoidia♡"], [aria-label="envoidia♡ (direct message)"] {
+    color: #e9aee4 !important;
+    font-family: Koruri !important;
+}

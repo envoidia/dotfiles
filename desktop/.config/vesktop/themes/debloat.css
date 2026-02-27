@@ -1,0 +1,96 @@
+/**
+ * @name Debloat
+ * @author envoidia
+ * @version 27/02/26
+ * @description Removes bloat from Discord
+ * @source https://github.com/envoidia/discord-css
+ * @website https://envoidia.neocities.org
+ */
+
+/* Message bar buttons */
+button[aria-label="Boost this server"],
+.button__74017,
+.button_e6e74f,
+.attachWrapper__0923f,
+
+/* Channels & Roles / Browse Channels button */
+#channels li[role="button"],
+.sectionDivider__68d2a,
+
+/* Super reactions */
+[aria-label="Add Super Reaction"],
+#super-reaction-picker-tab,
+#message-add-reaction-1,
+
+/* Nitro ads in profile edit */
+[aria-label="Payment Settings"],
+._8279f38edc620354-container,
+._65c15724a894a2e0-premiumFeatureBorder,
+._0b69f200eb3bf411-upsellContainer,
+
+/* boost goal */
+._0d0f9ddd12a3ace3-container,
+
+/* Quest ad popup */
+.questProgressWrapper__1d950,
+.questAcceptedContent__636a2,
+.wrapper__0d616,
+
+/* Writer longer messages with nitro! */
+._795fb60671d128c1-upsell,
+
+/* Shop and store */
+a[href="/store"], a[href="/shop"],
+
+/* Quests */
+a[href="/quest-home"],
+
+/* Checkpoint */
+._85643a485899904b-button,
+
+/* Mark unread button */
+div[role="button"][aria-label="Mark Unread"],
+#message-mark-unread,
+
+/* Speak message button */
+#message-tts,
+
+/* Emoji images and submenu on rightclick and hover */
+.customItem__7173b,
+.submenu_acf564[aria-activedescendant="message-add-reaction-0"],
+.wrapper__2e846,
+
+/* Top toolbar buttons */
+[aria-label="Help"],
+[aria-label="Show User Profile (Unavailable)"],
+[aria-label="Show User Profile"], /* Use Ctrl+U */
+[aria-label="Show Member List"], /* Use Ctrl+U */
+[aria-label="Add Friends to DM"], /* Use + button at top of DMs */
+[aria-label="Start Video Call"],
+[role="button"][aria-label="Notification Settings"], /* Right-click channel */
+.clickable_c99c29, /* Inbox, use Ctrl+I */
+
+/* Find or start a conversation bar */
+.searchBar_e6b769, /* Use Ctrl+K */
+
+/* Boost goal */
+.container__0d0f9,
+
+/* Create invite and edit channel buttons */
+.actionIcon_c69b6d, /* Use right-click */
+
+/* Active now panel */
+.nowPlayingColumn_f5023f,
+
+/* Wave button */
+.containerExpanded__7ff28,
+
+/* Discover and Add a Server */
+._5bc7ed9d4097f6b5-circleIconButton,
+
+/* Commonly used divider to create whitespace around elements this deletes */
+div[style="height: 12px;"]
+
+{
+   display: none !important;
+}

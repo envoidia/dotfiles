@@ -1,0 +1,140 @@
+/**
+ * @name envoidia's ClearVision V7 for Vencord
+ * @author ClearVision Team
+ * @version 7.0.0
+ * @description envoidia's version of ClearVision. Ensure you have the font Koruri installed
+ * @source https://github.com/ClearVision/ClearVision-v7
+ * @website https://clearvision.github.io
+ * @invite dHaSxn3
+ */
+
+/* modified by envoidia */
+
+/* IMPORT CSS */
+@import url("https://clearvision.github.io/ClearVision-v7/main.css");
+@import url("https://clearvision.github.io/ClearVision-v7/vencord.css");
+@import url("https://clearvision.github.io/Addons/gradients.css");
+
+/* SETTINGS */
+:root {
+    /* FONT */
+
+    /* ACCENT COLORS */
+    --main-color:   #C76AF2; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
+    --hover-color:  #C76AF2; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
+    --success-color:  #3882B7; /* success accent color (hex, rgb or hsl) [default: #43b581] */
+    --danger-color:  #5693BC; /* danger accent color (hex, rgb or hsl) [default: #982929] */
+    --url-color: var(--hover-color); /*The color of url links [default: var(--main-color)]*/
+
+    /* STATUS COLORS */
+    --online-color:  #639DC6; /* online status color (hex, rgb or hsl) [default: #43b581] */
+    --idle-color:  #DDA5F7; /* idle status color (hex, rgb or hsl) [default: #faa61a] */
+    --dnd-color:  #5693BC; /* dnd status color (hex, rgb or hsl) [default: #982929] */
+    --streaming-color:  #BF47F7; /* streaming status color (hex, rgb or hsl) [default: #593695] */
+    --offline-color:   #5E3272; /* offline/invisible status color (hex, rgb or hsl) [default: #808080] */
+
+    /* GENERAL */
+    --main-font: Koruri; /* main font for app (font must be installed) [default: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif] */
+    --code-font: Consolas, Liberation Mono, Menlo, Courier, monospace; /* font for codeblocks (font must be installed) [default: Consolas, Liberation Mono, Menlo, Courier, monospace] */
+    --text-normal:      rgba(220,220,220,1); /* color of default discord text */
+    --text-muted:    #C76AF2; /* color of default discord muted text (e.g.text found in input fields before typing).*/
+    --channels-width: 220px; /* channel list width (240px for Discord default) [default: 220px] */
+    --members-width: 240px; /* member list width [default: 240px] */
+
+    /* APP BACKGROUND */
+    --background-shading: 100%; /* app background shading (0 for complete smoothness) [default: 100%] */
+    --background-overlay: rgba(0, 0, 0, 0.6); /* app background overlay color/gradient [default: rgba(0, 0, 0, 0.6)] */
+    --background-image: url(https://i.imgur.com/qoWkNNq.png); /* app background image (link must be HTTPS) https://www.pixiv.net/en/artworks/101724735 https://x.com/benevolels/status/1577939718364241920*/
+    --background-position: center; /* app background position [default: center] */
+    --background-size: cover; /* app background size [default: cover] */
+    --background-repeat: no-repeat; /* app background repeat [default: no-repeat] */
+    --background-attachment: fixed; /* app background attachment [default: fixed] */
+    --background-brightness: 100%; /* app background brightness (< 100% for darken, > 100% for lighten) [default: 100%] */
+    --background-contrast: 100%; /* app background contrast [default: 100%] */
+    --background-saturation: 100%; /* app background saturation [default: 100%] */
+    --background-invert: 0%; /* app background invert (0 - 100%)  [default: 0%] */
+    --background-grayscale: 0%; /* app background grayscale ( 0 - 100%) [default: 0%] */
+    --background-sepia: 0%; /* app background sepia (0 - 100%) [default: 0%] */
+    --background-blur: 0px; /* app background blur [default: 0px] */
+
+    /* HOME BUTTON ICON */
+    --home-icon: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gQ3JlYXRlZCB3aXRoIElua3NjYXBlIChodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy8pIC0tPgoKPHN2ZwogICB2ZXJzaW9uPSIxLjEiCiAgIGlkPSJzdmcxIgogICB3aWR0aD0iNy42NjgwMDAyIgogICBoZWlnaHQ9IjcuNjY4MDAwMiIKICAgdmlld0JveD0iMCAwIDcuNjY4MDAwMiA3LjY2ODAwMDIiCiAgIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIgogICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxkZWZzCiAgICAgaWQ9ImRlZnMxIiAvPgogIDxnCiAgICAgaWQ9ImcxIj4KICAgIDxpbWFnZQogICAgICAgd2lkdGg9IjUuNjY3ODk2NyIKICAgICAgIGhlaWdodD0iNS42Njc4OTY3IgogICAgICAgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSIKICAgICAgIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBREFBQUFBd0NBWUFBQUJYQXZtSEFBQUFBWE5TUjBJQjJja3Nmd0FBQUFSblFVMUJBQUN4JiMxMDtqd3Y4WVFVQUFBQWdZMGhTVFFBQWVpWUFBSUNFQUFENkFBQUFnT2dBQUhVd0FBRHFZQUFBT3BnQUFCZHduTHBSUEFBQUFBbHdTRmx6JiMxMDtBQUI4L3dBQWZQOEI2NlpyY1FBQUFBZDBTVTFGQitrTEJSVTVNZmdtemRJQUFBSERTVVJCVkdqZTVabTlTZ05CRkViUEZTUCtGSFlLJiMxMDtnaitOUVN1eHNMY1N0ZkVkZkFxTFBJTGdDL2dxTnJHVU5IYmFDV3BJcFpVaVNENkxiQkVsbTJSM1ozWm1jS29OSkpmdnpGM21udXhDJiMxMDs0c3VxRnBCMERHd0V5dDkxQWJBSnRBTkFkSUZEYzFGcEJFUVBlSFljZUFWWS94WGU3TkZaZFVtYmtwNDBXRytTRGh6VzNwYjBrdFYrJiMxMDtsZFQwMGxNZkVMV0Y5d0ZSZTNpWEVNSEN1NEFJSHI0S1JEVGh5MEJFRjc0SVJMVGhwNEdJUHZ3NGlHVENqNEZJSjN3T1JLWHdNNEVZJiMxMDs1b0Rab2M4THdISXF1Ly8zbnZjaWdIV0ZiL3EwV08vaDYxRHgybncrV29naTUzd1pDTXNwTkF1Y09QalRQdzljQVd0QUg3Z0FIaWI4JiMxMDtaZ3U0QkJyQU8zQmtabmRsZHU1Y1VsL2gxOWhPMkNRSTRIcm9lNS9aVGs1enpqZXk2Mi9ncTJJbjM0RlRNN3V2Mm9tMnBNV2tmTDRJJiMxMDtSTlJpTmdraUNhdk1nMGhLaVVkQTdDV254RGxIYkRvK24wRzAvZ0RzcHhSKytKN1h0RWRzckc3VEtqSW5vaFN6b3NNdVNxdU1HbUxhJiMxMDtjejVLaUtKREtpcUlzaE0yQ29pcWVoQVV3cFhiQklGd0xXYTFRdml5eWxvZ2ZDdXhMd2pMaXU4QU45blRBeGk4cE81NWFQSU9zSlJkJiMxMDszd0xIWnZaUmRXZDJKWFVEUFhHbzNBbVRkQWFzQnB5VkhUUHI4Ri9YRDZ5Z0R4TmsyZ1FuQUFBQUFFbEZUa1N1UW1DQyYjMTA7IgogICAgICAgaWQ9ImltYWdlMSIKICAgICAgIHg9IjEuMDAwMDUxNyIKICAgICAgIHk9IjEuMDAwMDUxNyIgLz4KICA8L2c+Cjwvc3ZnPgo="); /* home button icon (link must be HTTPS) */
+    --home-position: center; /* home button icon position [default: center] */
+    --home-size: 40px; /* home button icon size [default: 40px] */
+
+    /* CHANNEL COLORS */
+    --channel-hover: #9ec3db;
+    --channel-normal: #4D93C1;
+    --channel-selected: rgba(240, 240, 240, 1);
+    --channel-muted: #3D6782;
+
+    /* MODAL BACKDROP */
+    --backdrop-overlay: rgba(0, 0, 0, 0.8); /* modal backdrop overlay color/gradient [default: rgba(0, 0, 0, 0.8)] */
+    --backdrop-image: var(--background-image); /* modal backdrop image (link must be HTTPS) [default: var(--background-image)] */
+    --backdrop-position: var(--background-position); /* modal backdrop position [default: var(--background-position)] */
+    --backdrop-size: var(--background-size); /* modal backdrop size [default: var(--background-size)] */
+    --backdrop-repeat: var(--background-repeat); /* modal backdrop repeat [default: var(--background-repeat)] */
+    --backdrop-attachment: var(--background-attachment); /* modal backdrop attachment [default: var(--background-attachment)] */
+    --backdrop-brightness: var(--background-brightness); /* modal backdrop brightness (< 100% for darken, > 100% for lighten) [default: var(--background-brightness)] */
+    --backdrop-contrast: var(--background-contrast); /* modal backdrop contrast [default: var(--background-contrast)] */
+    --backdrop-saturation: var(--background-saturation); /* modal backdrop saturation [default: var(--background-saturation)] */
+    --backdrop-invert: var(--background-invert); /* modal backdrop invert (0 - 100%)  [default: var(--background-invert)] */
+    --backdrop-grayscale: var(--background-grayscale); /* modal backdrop grayscale ( 0 - 100%) [default: var(--background-grayscale)] */
+    --backdrop-sepia: var(--background-sepia); /* modal backdrop sepia (0 - 100%) [default: var(--background-sepia)] */
+    --backdrop-blur: var(--background-blur); /* modal backdrop blur [default: var(--background-blur)] */
+
+    /* USER POPOUT BACKGROUND */
+    --user-popout-image: var(--background-image); /* app background image (link must be HTTPS) [default: var(--background-image)] */
+    --user-popout-position: var(--background-position); /* user popout background position [default: var(--background-position)] */
+    --user-popout-size: var(--background-size); /* user popout background size [default: var(--background-size)] */
+    --user-popout-repeat: var(--background-repeat); /* user popout background repeat [default: var(--background-repeat)] */
+    --user-popout-attachment: var(--background-attachment); /* user popout background attachment [default: var(--background-attachment)] */
+    --user-popout-brightness: var(--background-brightness); /* user popout background brightness (< 100% for darken, > 100% for lighten) [default: var(--background-brightness)] */
+    --user-popout-contrast: var(--background-contrast); /* user popout background contrast [default: var(--background-contrast)] */
+    --user-popout-saturation: var(--background-saturation); /* user popout background saturation [default: var(--background-saturation)] */
+    --user-popout-invert: var(--background-invert); /* user popout background invert (0 - 100%) [default: var(--background-invert)] */
+    --user-popout-grayscale: var(--background-grayscale); /* user popout background grayscale (0 - 100%) [default: var(--background-grayscale)] */
+    --user-popout-sepia: var(--background-sepia); /* user popout background sepia (0 - 100%) [default: var(--background-sepia)] */
+    --user-popout-blur: calc(var(--background-blur) + 3px); /* user popout background blur [default: calc(var(--background-blur) + 3px)] */
+    --user-popout-overlay: rgba(0, 0, 0, .6); /* user popout overlay color [default: rgba(0, 0, 0, .6)] */
+
+    /* USER MODAL BACKGROUND */
+    --user-modal-image: var(--background-image); /* app background image (link must be HTTPS) [default: var(--background-image)] */
+    --user-modal-position: var(--background-position); /* user modal background position [default: var(--background-position)] */
+    --user-modal-size: var(--background-size); /* user modal background size [default: var(--background-size)] */
+    --user-modal-repeat: var(--background-repeat); /* user modal background repeat [default: var(--background-repeat)] */
+    --user-modal-attachment: var(--background-attachment); /* user modal background attachment [default: var(--background-attachment)] */
+    --user-modal-brightness: var(--background-brightness); /* user modal background brightness (< 100% for darken, > 100% for lighten) [default: var(--background-brightness)] */
+    --user-modal-contrast: var(--background-contrast); /* user modal background contrast [default: var(--background-contrast)] */
+    --user-modal-saturation: var(--background-saturation); /* user modal background saturation [default: var(--background-saturation)] */
+    --user-modal-invert: var(--background-invert); /* user modal background invert (0 - 100%) [default: var(--background-invert)] */
+    --user-modal-grayscale: var(--background-grayscale); /* user modal background grayscale (0 - 100%) [default: var(--background-grayscale)] */
+    --user-modal-sepia: var(--background-sepia); /* user modal background sepia (0 - 100%) [default: var(--background-sepia)] */
+    --user-modal-blur: calc(var(--background-blur) + 3px); /* user modal background blur [default: calc(var(--background-blur) + 3px)] */
+
+    /* THEME BD COLORS */
+    --bd-blue: var(--main-color); /* betterdiscord main color [default: var(--main-color)] */
+    --bd-blue-hover: var(--hover-color); /* betterdiscord hover color [default: var(--hover-color)] */
+    --bd-blue-active: var(--hover-color); /* betterdiscord active color [default: var(--hover-color)] */
+
+    /* Square pfps */
+    /* Avatars - Default value : 5px */
+    --avatar-radius: 5px;
+
+    /* Status - Default value : 3px */
+    --status-radius: 3px;
+
+    /* Servers - Default value : 8px */
+    --server-radius: 8px;
+
+    --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
+    --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
+    --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
+
+    --rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
+    --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
+    --rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
+
+    --rs-avatar-shape: 15%; /* 50% for round - 0% for square */
+    --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+}
