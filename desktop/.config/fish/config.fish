@@ -1,6 +1,6 @@
 alias ls="lsd -A"
 alias ll="lsd -AlS"
-alias lst="lsd -A --tree"
+alias lt="lsd -A --tree"
 alias fd="fd -iH"
 alias rg="rg -i --hidden"
 alias du="du -h"
