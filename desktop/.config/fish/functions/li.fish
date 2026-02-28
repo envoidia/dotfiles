@@ -1,9 +1,9 @@
-function lsi -d "Show a grid of image previews"
+function li -d "Show a grid of image previews"
     argparse 'h/help' 'c/columns=' 'R/recursive' -- $argv
     or return
 
     if set -q _flag_h
-        echo -e "usage: lsi [options] <file/dir> [<file/dir>...]\nOptions:\n    -h, --help: Print this help message and exit\n    -c, --columns <amount>: Set grid column count (default 8)\n    -R, --recursive: Recurse into directories"
+        echo -e "usage: li [options] <file/dir> [<file/dir>...]\nOptions:\n    -h, --help: Print this help message and exit\n    -c, --columns <amount>: Set grid column count (default 8)\n    -R, --recursive: Recurse into directories"
         return
     end
 
