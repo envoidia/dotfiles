@@ -3,6 +3,7 @@
     "spacing" : 0,
 
     "modules-left": [
+        "custom/arch",
         "hyprland/workspaces",
         "hyprland/window"
     ],
@@ -18,6 +19,10 @@
       "custom/gpu",
       "memory"
     ],
+
+    "custom/arch": {
+        "format": "󰣇"
+    },
 
     "hyprland/workspaces": {
         "format": "{name}"

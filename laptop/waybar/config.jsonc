@@ -3,6 +3,7 @@
     "spacing" : 0,
 
     "modules-left": [
+        "custom/arch",
         "hyprland/workspaces",
         "hyprland/window"
     ],
@@ -20,6 +21,10 @@
       "custom/gpu",
       "memory"
     ],
+
+    "custom/arch": {
+        "format": "󰣇"
+    },
 
     "hyprland/workspaces": {
         "format": "{name}"
@@ -58,9 +63,8 @@
     "custom/brightness": {
         "exec": "brightnessctl get | awk -v max=937 '{printf \"%.0f\", ($1 / max) * 100}'",
         "interval": 1,
-        "format": "☀️ {}%",
+        "format": "󰖨 {}%",
         "on-click": "brightnessctl set +10%"
-
     },
 
     "cpu": {

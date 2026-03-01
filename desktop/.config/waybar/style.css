@@ -15,11 +15,6 @@
     font-weight: 500;
 }
 
-#workspaces {
-    padding-left: 0.3rem;
-    margin-left: 16px;
-}
-
 #window {
     padding: 0.3rem 0.7rem;
     margin: 5px 0px; 
@@ -38,6 +33,7 @@
     margin: 5px 0px 5px 0px;
     background-color: @bg;
     border-radius: 0;
+    transition: none;
 }
 
 #workspaces button.active {
@@ -51,18 +47,22 @@
     border-color: @bg-light;
 }
 
-#clock, #pulseaudio, #battery, #custom-brightness, #cpu, #custom-gpu, #memory {
+#custom-arch, #clock, #pulseaudio, #battery, #custom-brightness, #cpu, #custom-gpu, #memory {
     padding: 0.3rem 0.7rem;
     margin: 5px 0px; 
     color: @text;
     background-color: @bg;
 }
 
+#custom-arch {
+    margin-left: 20px;
+}
+
 #memory {
     margin-right: 20px;
 }
 
-#clock:hover, #pulseaudio:hover, #battery:hover, #custom-brightness:hover, #cpu:hover,
+#custom-arch:hover, #clock:hover, #pulseaudio:hover, #battery:hover, #custom-brightness:hover, #cpu:hover,
     #custom-gpu:hover, #memory:hover, #window:hover {
     color: white;
     background-color: @bg-light;
