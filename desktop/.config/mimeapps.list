@@ -1,0 +1,4 @@
+[Default Applications]
+text/plain=code.desktop
+text/vtt=code.desktop
+x-scheme-handler/discord=vesktop.desktop
