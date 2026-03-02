@@ -1,6 +1,7 @@
 ### Desktop: Vesktop
 - CrashHandler
 - F8Break
+- FakeNitro
 - FavoriteGifSearch
 - FullSearchContext
 - NoTypingAnimation
