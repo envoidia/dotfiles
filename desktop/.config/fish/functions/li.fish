@@ -1,4 +1,4 @@
-function li -d "Show a grid of image previews"
+function li -w "timg --upscale --frames=1 --title" -d "Show a grid of image previews"
     argparse 'h/help' 'c/columns=' 'R/recursive' -- $argv
     or return
 

@@ -1,5 +1,6 @@
 [Default Applications]
 text/plain=code.desktop
 text/vtt=code.desktop
+application/json=code.desktop
 application/pgp-encrypted=code.desktop
 x-scheme-handler/discord=vesktop.desktop
