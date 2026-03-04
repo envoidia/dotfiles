@@ -29,7 +29,8 @@
     },
 
     "clock": {
-        "format": "{:%H:%M %d/%m}"
+        "format": "{:%H:%M %d/%m}",
+        "tooltip-format": "{:%H:%M %a %d/%m/%y}"
     },
 
     "pulseaudio": {
