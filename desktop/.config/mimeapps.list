@@ -4,4 +4,5 @@ text/vtt=code.desktop
 application/json=code.desktop
 application/pgp-encrypted=code.desktop
 text/x-shellscript=code.desktop
+text/x-c++=code.desktop
 x-scheme-handler/discord=vesktop.desktop
