@@ -3,15 +3,16 @@
 - F8Break
 - FakeNitro
 - FavoriteGifSearch
+- FixYoutubeEmbeds
 - FullSearchContext
 - NoTypingAnimation
 - PinDMS
 - ServerInfo
+- SilentTyping
 - ViewRaw
 - WebKeybinds
 - WebScreenShareFixes
 - YoutubeAdblock
-- FixYoutubeEmbeds
 
 ### Mobile: Aluicord
 - CopyInsteadOfShareImages
