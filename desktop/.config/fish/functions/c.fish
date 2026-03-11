@@ -1,5 +1,5 @@
 # Convenience wrapper for wl-copy
-function cbc -w "wl-copy" -d "Copies text and files"
+function c -w "wl-copy" -d "Copies text and files"
     if test (count $argv) -eq 0
         wl-copy
     else
