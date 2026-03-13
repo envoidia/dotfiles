@@ -1,7 +1,7 @@
 /**
  * @name Debloat
  * @author envoidia
- * @version 06/03/26
+ * @version 13/03/26
  * @description Removes bloat from Discord
  * @source https://github.com/envoidia/discord-css
  * @website https://envoidia.neocities.org
@@ -87,7 +87,7 @@ div[role="button"][aria-label="Mark Unread"],
 .containerExpanded__7ff28,
 
 /* Discover and Add a Server */
-._5bc7ed9d4097f6b5-circleIconButton,
+.circleIconButton__5bc7e,
 
 /* Commonly used divider to create whitespace around elements this deletes */
 div[style="height: 12px;"]

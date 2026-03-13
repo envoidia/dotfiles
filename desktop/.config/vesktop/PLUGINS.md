@@ -1,15 +1,17 @@
 ### Desktop: Vesktop
+- BetterGifPicker
 - CrashHandler
 - F8Break
-- FakeNitro
+- FakeNitro (fake emoji disabled)
 - FavoriteGifSearch
 - FixYoutubeEmbeds
 - FullSearchContext
+- ImageFilename
 - NoTypingAnimation
 - PinDMS
 - ServerInfo
-- SilentTyping
-- ViewRaw
+- SilentTyping (button disabled)
+- ViewRaw (button disabled)
 - WebKeybinds
 - WebScreenShareFixes
 - YoutubeAdblock
