@@ -5,7 +5,7 @@ alias fd="fd -iH"
 alias rg="rg -i --hidden"
 alias du="dust"
 
-alias p=wl-paste
+alias cbp=wl-paste
 alias drd="dragon-drop --and-exit"
 
 alias mv="mv -i"
