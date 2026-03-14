@@ -15,7 +15,7 @@
 	"editor.wordWrapColumn": 999,
 	"editor.wrapOnEscapedLineFeeds": true,
 	"editor.codeLens": false,
-	"editor.fontFamily": "'Droid Sans Mono', monospace",
+	"editor.fontFamily": "'Droid Sans Mono', 'NotoSansM Nerd Font Mono', monospace",
 	
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
