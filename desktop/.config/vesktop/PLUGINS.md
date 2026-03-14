@@ -3,6 +3,7 @@
 - CrashHandler
 - F8Break
 - FakeNitro (fake emoji disabled)
+- FavoriteEmojiFirst
 - FavoriteGifSearch
 - FixYoutubeEmbeds
 - FullSearchContext
