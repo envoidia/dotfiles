@@ -8,6 +8,7 @@
 - FixYoutubeEmbeds
 - FullSearchContext
 - ImageFilename
+- NoBlockedMessages
 - NoTypingAnimation
 - PinDMS
 - ServerInfo
@@ -20,5 +21,6 @@
 ### Mobile: Aluicord
 - CopyInsteadOfShareImages
 - DMCategories
+- HideBlockedMessages
 - LayoutController
 - TapTap
