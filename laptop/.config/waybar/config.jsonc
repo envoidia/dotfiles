@@ -83,7 +83,7 @@
     "custom/gpu": {
         "interval": 30,
         "format": "󰾲 {}",
-        "exec": "~/.config/waybar/gpu_usage.fish",
+        "exec": "echo $(nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits)% $(nvidia-smi --query-gpu=memory.used --format=csv,noheader,nounits 2>/dev/null | awk '{printf \"%.2f\", $1/1024}')GB",
         "on-click": "kitty --class nvidia-smi -e nvidia-smi -l 5"
     },
 
