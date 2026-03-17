@@ -88,7 +88,7 @@
     },
 
     "custom/recording": {
-        "exec-if": "pgrep -f gpu-screen-recorder",
+        "exec-if": "pidof gpu-screen-recorder > /dev/null",
         "exec": "echo '{\"text\": \"  REC\"}'",
         "on-click": "~/.config/record.fish",
         "return-type": "json",
