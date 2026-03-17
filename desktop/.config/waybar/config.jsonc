@@ -57,14 +57,14 @@
     "custom/gpu": {
         "interval": 30,
         "format": "󰾲 {}",
-        "exec": "~/.config/waybar/gpu_usage.sh",
+        "exec": "~/.config/waybar/gpu_usage.fish",
         "on-click": "kitty --class nvidia-smi -e nvidia-smi -l 5"
     },
 
     "custom/recording": {
         "exec-if": "pgrep -f gpu-screen-recorder",
-        "exec": "~/.config/waybar/recording_indicator.sh",
-        "on-click": "pkill -f gpu-screen-recorder",
+        "exec": "echo '{\"text\": \"  REC\"}'",
+        "on-click": "~/.config/record.fish",
         "return-type": "json",
         "interval": 1,
         "format": "{}"
