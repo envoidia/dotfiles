@@ -1,10 +1,10 @@
 #!/usr/bin/env fish
 
-switch $(echo -e "Cancel\nLogout\nShutdown\nRestart" | fsel --dmenu)
-    case Logout
+switch $(echo -e "cancel\nlogout\nshutdown\nreboot" | fsel --dmenu)
+    case logout
         command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch exit
-    case Shutdown
+    case shutdown
         shutdown now
-    case Restart
+    case reboot
         reboot
 end
