@@ -59,7 +59,7 @@ function fish_greeting
         "bleed out for audience approval\ntragic but perfectly on schedule" \
         "you think by now that we would've learned\nbehind every piece of art is a human to be heard."
 
-    set -l i (random 1 (count $greetings))
+    set -l i $(random 1 $(count $greetings))
     set_color brcyan
     echo -e $greetings[$i]
     set_color normal

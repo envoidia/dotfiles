@@ -21,7 +21,7 @@ function li -w "timg --upscale --frames=1 --title" -d "Show a grid of image prev
 
     set -l files
 
-    if test (count $argv) -eq 0
+    if test $(count $argv) -eq 0
         for f in $glob
             test -f "$f" && set -a files "$f"
         end
