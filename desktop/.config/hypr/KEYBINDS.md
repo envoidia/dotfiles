@@ -12,12 +12,13 @@ J | Change split direction
 LClick | Drag window
 RClick | Resize window
 C | Kill focused window
-Q | Open Terminal
-R | Open Launcher
-V | Open Clipboard history
-A | Open Browser
-S | Open Editor
-M | Close Hyprland
+Q | Terminal
+R | Launcher
+V | Clipboard history
+A | Browser
+S | Editor
+M | Shutdown/reboot/logout menu
+K | pkill menu
 
 | Other ||
 -|-

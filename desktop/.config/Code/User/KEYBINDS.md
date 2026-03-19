@@ -7,9 +7,9 @@ Up/Down/Left/Right | Move cursor
 Ctrl | Navigate symbol-wise
 Alt | Navigate word-wise
 Home/End | To line home/end
-Alt-D/F | Move up/down 10 lines
-Alt-Q/W | To left/right bracket
-Alt-A/S | To left/right bracket at same or higher scope
+Hypr-Up/Down | Move up/down 10 lines
+Hypr-Left/Right | To left/right bracket
+Hypr-Alt-Left/Right | To left/right bracket at same or higher scope
 Ctrl-G | To line
 Ctrl-U | Cursor undo
 Ctrl-Shift-U | Cursor redo
@@ -52,7 +52,7 @@ Ctrl-Tab | Switch between tabs
 Ctrl-Shift-T | Reopen last closed tab
 Ctrl-PgUp/PgDown | To prev/next tab
 Ctrl-Shift-PgUp/PgDown | Move tab left/right
-Alt-{Num} | To {Num} tab. Doesn't work with 1
+Alt-{Num} | To {Num} tab
 Ctrl-N | New file
 Ctrl-P | Open file in project
 Ctrl-O | Open file
@@ -112,16 +112,15 @@ F11 | Step into
 | Sidebar || 
 -|-
 Ctrl-B | Toggle sidebar
-Ctrl-K Ctrl-E | Explorer
+Hypr-E | Explorer
 Ctrl-Shift-F2 | Solution explorer rename
-Ctrl-K Ctrl-G | Git
-Ctrl-K Ctrl-D | Debug
-Ctrl-K Ctrl-X | Extensions
-Ctrl-K Ctrl-T | Todo tree
+Hypr-G | Git
+Hypr-D | Debug
+Hypr-X | Extensions
 
 | Bottom Panel || 
 -|-
-Alt-1 | Toggle bottom panel
+Hypr-1 | Toggle bottom panel
 Alt-P | Problems
 Alt-O | Output
 Alt-G | Debug
