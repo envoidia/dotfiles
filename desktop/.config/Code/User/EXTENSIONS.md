@@ -9,6 +9,7 @@
 - [Colorize](https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize) (Can be laggy (restarting helps), so I usually disable it when I'm not actively using it)
 
 ### Lang-specific
+- [Even Better TOML](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml)
 - [Fish](https://marketplace.visualstudio.com/items?itemName=bmalehorn.vscode-fish)
 - [.NET Install Tool](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscode-dotnet-runtime)
 - [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)

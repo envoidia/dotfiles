@@ -57,7 +57,10 @@ function fish_greeting
         "I'm one day closer to being who I wanna be" \
         "Everything that happened was for the best" \
         "bleed out for audience approval\ntragic but perfectly on schedule" \
-        "you think by now that we would've learned\nbehind every piece of art is a human to be heard."
+        "you think by now that we would've learned\nbehind every piece of art is a human to be heard." \
+        "I just wanna get crazy baby\nSo play me 'till this heart gives out\nStill razor sharp, I'll play my part\nBut this might be where we fall apart, no\nI can't imagine anything more worth it" \
+        "underneath your blade\nwant it in the worst way\ni'm reeling, but you're tearing me apart" \
+        "hooked on the breath and bloodied taste\nof something i can't keep (away from me)"
 
     set -l i $(random 1 $(count $greetings))
     set_color brcyan
