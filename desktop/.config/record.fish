@@ -2,7 +2,7 @@
 
 if pgrep -f "gpu-screen-recorder" > /dev/null
     pkill -SIGINT -f "gpu-screen-recorder"
-    notify-send "gpu-screen-recorder" "Recording finished"
+    notify-send gpu-screen-recorder "Recording finished"
 else
     argparse 'r/region' -- $argv
     or return
@@ -13,5 +13,5 @@ else
         set region $(slurp | string replace -r '(\d+),(\d+) (\S+)' '$3+$1+$2')
     end
 
-    "gpu-screen-recorder" -w $region -f 164 -cursor no -a default_output -o "/tmp/videos/$(date +"%d-%m-%Y_%H-%M-%S").mp4"
+    gpu-screen-recorder -w $region -f 164 -cursor no -a default_output -o "/tmp/videos/$(date +"%d-%m-%Y_%H-%M-%S").mp4"
 end
