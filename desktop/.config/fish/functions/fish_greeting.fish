@@ -60,7 +60,8 @@ function fish_greeting
         "you think by now that we would've learned\nbehind every piece of art is a human to be heard." \
         "I just wanna get crazy baby\nSo play me 'till this heart gives out\nStill razor sharp, I'll play my part\nBut this might be where we fall apart, no\nI can't imagine anything more worth it" \
         "underneath your blade\nwant it in the worst way\ni'm reeling, but you're tearing me apart" \
-        "hooked on the breath and bloodied taste\nof something i can't keep (away from me)"
+        "hooked on the breath and bloodied taste\nof something i can't keep (away from me)" \
+        "lead me astray with daggers in your dead eyes"
 
     set -l i $(random 1 $(count $greetings))
     set_color brcyan
