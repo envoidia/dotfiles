@@ -2,7 +2,7 @@ alias ls="lsd -A"
 alias ll="lsd -AlS"
 alias lt="lsd -A --tree"
 alias fd="fd -iH"
-alias rg="rg -i --hidden"
+alias rg="kitten hyperlinked-grep -i --hidden"
 alias du="dust"
 
 alias cbp=wl-paste
