@@ -6,7 +6,6 @@ alias rg="kitten hyperlinked-grep -i --hidden"
 alias du=dust
 alias cat=bat
 
-alias cbp=wl-paste
 alias drd="dragon-drop --and-exit"
 
 alias mv="mv -i"
