@@ -23,16 +23,16 @@ function li -w "timg --upscale --frames=1 --title" -d "Show a grid of image prev
 
     if test $(count $argv) -eq 0
         for f in $glob
-            test -f "$f" && set -a files "$f"
+            test -f $f && set -a files $f
         end
     else
         for arg in $argv
-            if test -d "$arg"
-                for f in "$arg"/$glob
-                    test -f "$f" && set -a files "$f"
+            if test -d $arg
+                for f in $arg/$glob
+                    test -f $f && set -a files $f
                 end
             else
-                set -a files "$arg"
+                set -a files $arg
             end
         end
 
