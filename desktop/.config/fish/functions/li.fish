@@ -38,5 +38,5 @@ function li -w "timg --upscale --frames=1 --title" -d "Show a grid of image prev
 
     end
 
-    timg --upscale --grid=$_flag_c --frames=1 --title $files
+    timg --upscale --grid=$_flag_c --frames=1 --title $files 2>/dev/null
 end
