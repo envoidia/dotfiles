@@ -8,7 +8,7 @@ function cbc -w wl-copy -d "Copies text and files"
     argparse 'h/help' 'l/link' 'n/nolink' -- $argv
 
     if set -q _flag_h
-        echo -e "usage: cbc [options] <file/dir>\nOptions:\n    -h, --help: Print this help message and exit\n    -l, --link: Copy file as link/URI\n    -n, --nolink: Never copy file as link. Without this option, videos and gifs will copy as links"
+        echo -e "usage: cbc [options] <file/dir>\nOptions:\n    -h, --help: Print this help message and exit\n    -l, --link: Copy file as link/URI\n    -n, --nolink: Never copy file as link. Without this option, videos and GIFs will copy as links"
         return
     end
     
@@ -18,7 +18,7 @@ function cbc -w wl-copy -d "Copies text and files"
     if test -f $input
         set -l mime $(xdg-mime query filetype $input 2>/dev/null)
 
-        # Copy as uri
+        # Copy as URI
         if not set -q _flag_n
             # Separate if statement due to operator precedence
             if set -q _flag_l || test $mime = image/gif || test $(string split -f 1 / $mime) = video
@@ -27,7 +27,7 @@ function cbc -w wl-copy -d "Copies text and files"
             end
         end
 
-        # Some apps don't like pasting jpegs, but pretending it's a png fixes it
+        # Some apps don't like pasting JPEGs, but pretending it's a PNG fixes it
         if test $mime = image/jpeg
             wl-copy --type image/png < $input
             return
