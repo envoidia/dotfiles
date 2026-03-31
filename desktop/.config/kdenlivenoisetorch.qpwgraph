@@ -1,0 +1,13 @@
+<!DOCTYPE patchbay>
+<patchbay name="kdenlivenoisetorch" version="1.0.0">
+ <items>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="NoiseTorch Microphone for Blue Snowball Source" port="NoiseTorch Microphone for Blue Snowball Source:capture_MONO"/>
+   <input node="kdenlive-1" port="kdenlive:input_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="NoiseTorch Microphone for Blue Snowball Source" port="NoiseTorch Microphone for Blue Snowball Source:capture_MONO"/>
+   <input node="kdenlive" port="kdenlive:input_MONO"/>
+  </item>
+ </items>
+</patchbay>
