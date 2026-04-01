@@ -1,7 +1,5 @@
 {
 	// #region Basic Settings
-	
-	
 	"editor.formatOnSave": true,
 	"editor.formatOnPaste": true,
     "files.autoSave": "afterDelay",
@@ -16,6 +14,8 @@
 	"editor.wrapOnEscapedLineFeeds": true,
 	"editor.codeLens": false,
 	"editor.fontFamily": "'Droid Sans Mono', 'NotoSansM Nerd Font Mono', monospace",
+	"debug.internalConsoleOptions": "neverOpen",
+	"workbench.editor.useModal": "off",
 	
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
@@ -36,6 +36,7 @@
 		}
 	],
 	
+	"workbench.colorTheme": "Dark Modern",
 	"workbench.editor.splitInGroupLayout": "vertical",
 	
 	"[plaintext]": {
@@ -47,7 +48,7 @@
 	"terminal.integrated.defaultProfile.linux": "fish",
 	"terminal.integrated.gpuAcceleration": "on",
 	"terminal.integrated.fontFamily": "'Droid Sans Mono', 'NotoSansM Nerd Font Mono'",
-
+	
 	"security.workspace.trust.untrustedFiles": "open",
 	"telemetry.feedback.enabled": false,
 	"telemetry.editStats.enabled": false,
@@ -63,14 +64,12 @@
 	"dotnet.backgroundAnalysis.analyzerDiagnosticsScope": "fullSolution",
 	"dotnet.backgroundAnalysis.compilerDiagnosticsScope": "fullSolution",
 	
-	// Hot reload in editor doesn't work, use dotnet watch
-	//"csharp.experimental.debug.hotReload": true,
+	"csharp.experimental.debug.hotReload": true,
 	"csharp.debug.hotReloadOnSave": false,
 	
 	// #region AI
 	"workbench.settings.showAISearchToggle": false,
     "chat.disableAIFeatures": true,
-	"chat.commandCenter.enabled": false,
 	"chat.sendElementsToChat.attachCSS": false,
 	"chat.sendElementsToChat.attachImages": false,
 	"chat.sendElementsToChat.enabled": false,
@@ -286,6 +285,6 @@
 			"preprocessorText": "#da86d1",
 			"event": "#DCDCAA"
   		}
-	},
+	}
 	// #endregion
 }
