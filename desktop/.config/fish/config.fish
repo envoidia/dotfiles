@@ -9,6 +9,7 @@ alias cat=bat
 alias drd="dragon-drop --and-exit"
 
 alias mv="mv -i"
+alias cp="cp -i"
 
 # Enable file path completion
 # This is technically wrong for wl-copy, but I only use it via a wrapper, and adding it to the wrapper doesn't work
