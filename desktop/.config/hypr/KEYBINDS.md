@@ -15,6 +15,7 @@ C | Kill focused window
 Q | Terminal
 R | Launcher
 V | Clipboard history
+Alt-V | Send clipboard to phone
 A | Browser
 S | Editor
 M | Shutdown/reboot/logout menu
