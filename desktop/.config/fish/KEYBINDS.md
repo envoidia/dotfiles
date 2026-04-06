@@ -3,7 +3,7 @@
 Tab | Autocomplete
 Ctrl-V | Paste
 Ctrl-Z | Undo
-?? | Redo
+Alt-/ | Redo
 Alt-S | Toggle sudo
 Alt-L | ls
 
