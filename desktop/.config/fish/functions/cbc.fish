@@ -22,7 +22,7 @@ function cbc -w wl-copy -d "Copies text and files"
         # Copy as URI
         if not set -q _flag_n
             # Separate if statement due to operator precedence
-            if set -q _flag_l || test $mime = image/gif || \
+            if set -q _flag_l || test $mime = image/gif || test $mime = image/webp || \
                 test $mime_prefix = video || test $mime_prefix = audio
                 wl-copy -t text/uri-list file://$(pwd)/$input
                 return
