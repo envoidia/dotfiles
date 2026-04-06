@@ -8,7 +8,7 @@ function cbc -w wl-copy -d "Copies text and files"
     argparse 'h/help' 'l/link' 'n/nolink' -- $argv
 
     if set -q _flag_h
-        echo -e "usage: cbc [options] <file/dir>\nOptions:\n    -h, --help: Print this help message and exit\n    -l, --link: Copy file as link/URI\n    -n, --nolink: Never copy file as link. Without this option, audio, videos, and GIFs will copy as links"
+        echo -e "usage: cbc [options] <file/dir>\nOptions:\n    -h, --help: Print this help message and exit\n    -l, --link: Copy file as link/URI\n    -n, --nolink: Never copy file as link. Without this option, audio, videos, WEBPs, and GIFs will copy as links"
         return
     end
     
