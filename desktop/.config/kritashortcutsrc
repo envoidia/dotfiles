@@ -6,6 +6,6 @@ decrease_opacity=none
 file_export_file=Ctrl+Shift+E
 flatten_image=;\s
 mirror_canvas=none
-remove_layer=Del
+remove_layer=Ctrl+Shift+Del
 show_mypaint_shade_selector=none
 show_wg_color_selector=none
