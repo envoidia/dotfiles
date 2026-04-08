@@ -16,6 +16,7 @@
 - ViewRaw (button disabled)
 - WebKeybinds
 - WebScreenShareFixes
+- WhoReacted
 - YoutubeAdblock
 
 ### Mobile: Aluicord
