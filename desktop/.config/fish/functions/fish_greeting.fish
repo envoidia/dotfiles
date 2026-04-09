@@ -9,7 +9,7 @@ function fish_greeting
         "What follows after rainy days: Find hope in rainbows\nWhat glimmers in a puddle deep: Find hope in afterglow\nOpen your eyes, open your eyes" \
         "Oh, never forget to show your true colors\nOh, never forget to question destiny\nYou can be more than a puppet" \
         "It's our turn to get back\nTo grab the future which we fully believe" \
-        "I'm a cute chimera sewn crooked <-new!!" \
+        "I'm a cute chimera sewn crooked <-new!!\nExpectations and pressures were the blueprint" \
         "Again and again, reborn and reborn\nDancing on a mountain of corpses" \
         "It's never too late\nTo fall in love with the world\nYour past is not today\nSo set your stride with a twirl" \
         "Hold hands, die together? Neverland\nI'd get tangled up with you again in a heartbeat\nA space for just us two, now and forever\nThere's no world in which I'd give you away" \
@@ -61,7 +61,12 @@ function fish_greeting
         "I just wanna get crazy baby\nSo play me 'till this heart gives out\nStill razor sharp, I'll play my part\nBut this might be where we fall apart, no\nI can't imagine anything more worth it" \
         "underneath your blade\nwant it in the worst way\ni'm reeling, but you're tearing me apart" \
         "hooked on the breath and bloodied taste\nof something i can't keep (away from me)" \
-        "lead me astray with daggers in your dead eyes"
+        "lead me astray with daggers in your dead eyes" \
+        "Love is an incision that cuts deeper than a knife" \
+        "Razor blade drawings, color and ruin" \
+        "Let your tears run free, let out your heart" \
+        "I could be the reason why you were able to be kind" \
+        "IS my mind already cracked?"
 
     set -l i $(random 1 $(count $greetings))
     set_color brcyan
