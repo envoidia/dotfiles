@@ -66,7 +66,10 @@ function fish_greeting
         "Razor blade drawings, color and ruin" \
         "Let your tears run free, let out your heart" \
         "I could be the reason why you were able to be kind" \
-        "IS my mind already cracked?"
+        "IS my mind already cracked?" \
+        "Baby I am just a Bad girl with an EGO\nCan't help living in my own world\nCall me evil" \
+        "If poison's all that you can prescribe\nThen savor the taste and catch a vibe" \
+        "Jab it into the vein, it don't matter\nAcid kiss, take it now or never!"
 
     set -l i $(random 1 $(count $greetings))
     set_color brcyan
