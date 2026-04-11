@@ -79,6 +79,12 @@ function fish_greeting
         # Ruma
         "Scream out all your feelings and Ha-ha-hack them all to bits" \
         \
+        # Mili
+        # Through Patches of Violet
+        "I could be the reason why you were able to be kind" \
+        # world.execute(me);
+        "If I'm the only god, then you're the proof of my existence" \
+        \
         ## Other
         # VENOMPHILE
         "If poison's all that you can prescribe\nThen savor the taste and catch a vibe" \
