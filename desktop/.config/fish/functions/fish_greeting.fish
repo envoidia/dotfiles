@@ -21,6 +21,8 @@ function fish_greeting
         # Dizzy Paranoia Girl
         "Think I'm at the end of a road traveled far too long" \
         "Love is an incision that cuts deeper than a knife" \
+        # Pull the Trigger
+        "TAKE ONE LOOK AT ME, I'LL BE YOUR MEMENTO MORI"
         \
         ## PinnochioP
         # I'm glad you're evil too
