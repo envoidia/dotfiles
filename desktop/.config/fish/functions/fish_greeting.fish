@@ -70,7 +70,9 @@ function fish_greeting
         "Baby I am just a Bad girl with an EGO\nCan't help living in my own world\nCall me evil" \
         "If poison's all that you can prescribe\nThen savor the taste and catch a vibe" \
         "I'll try to be good, to the letter\nHold it back, but the venom is better!" \
-        "Jab it into the vein, it don't matter\nAcid kiss, take it now or never!"
+        "Jab it into the vein, it don't matter\nAcid kiss, take it now or never!" \
+        "I'm what you get when the stars collide" \
+        "Scream out all your feelings and Ha-ha-hack them all to bits"
 
     set -l i $(random 1 $(count $greetings))
     set_color brcyan
