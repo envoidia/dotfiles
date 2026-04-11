@@ -72,7 +72,10 @@ function fish_greeting
         "I'll try to be good, to the letter\nHold it back, but the venom is better!" \
         "Jab it into the vein, it don't matter\nAcid kiss, take it now or never!" \
         "I'm what you get when the stars collide" \
-        "Scream out all your feelings and Ha-ha-hack them all to bits"
+        "Scream out all your feelings and Ha-ha-hack them all to bits" \
+        "I'll give you sweet ICE\nLove me until you die" \
+        "THE STARS DIVIDING TAKE THEIR FINAL BREATH" \
+        "i had a dream about you last night\nit ended when we died"
 
     set -l i $(random 1 $(count $greetings))
     set_color brcyan
