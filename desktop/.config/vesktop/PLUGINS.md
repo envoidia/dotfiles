@@ -10,6 +10,7 @@
 - ImageFilename
 - NoBlockedMessages
 - NoTypingAnimation
+- oneko
 - PinDMS
 - ServerInfo
 - SilentTyping (button disabled)
