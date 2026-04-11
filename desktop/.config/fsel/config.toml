@@ -54,7 +54,7 @@ header_title_color = "#73bed3"
 # ===== LAYOUT =====
 
 # Top panel height as percentage (10-70%)
-title_panel_height_percent = 10
+title_panel_height_percent = 8
 
 # Input panel height in lines (1-10)
 input_panel_height = 3
