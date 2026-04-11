@@ -37,6 +37,15 @@ function fish_greeting
         # God-ish
         "Ignorance is bliss, the fruit of knowledge is rotten" \
         \
+        ## tart
+        # BLADEDANCE
+        "underneath your blade\nwant it in the worst way\ni'm reeling, but you're tearing me apart" \
+        "hooked on the breath and bloodied taste\nof something i can't keep (away from me)" \
+        "lead me astray with daggers in your dead eyes" \
+        # deluge
+        "THE STARS DIVIDING TAKE THEIR FINAL BREATH" \
+        "i had a dream about you last night\nit ended when we died" \
+        \
         ## Crusher
         # ECHO
         "The echo in the mirror" \
@@ -79,11 +88,19 @@ function fish_greeting
         # Ruma
         "Scream out all your feelings and Ha-ha-hack them all to bits" \
         \
-        # Mili
+        ## Mili
         # Through Patches of Violet
         "I could be the reason why you were able to be kind" \
         # world.execute(me);
         "If I'm the only god, then you're the proof of my existence" \
+        \
+        ## Persona
+        # Counter-strike
+        "Oh, never forget to show your true colors\nOh, never forget to question destiny\nYou can be more than a puppet" \
+        # Daredevil
+        "Searching for something they won't ever find" \
+        # I Believe
+        "It's our turn to get back\nTo grab the future which we fully believe" \
         \
         ## Other
         # VENOMPHILE
@@ -99,10 +116,6 @@ function fish_greeting
         "What can you see with eyes wide open?\nBut can you see with eyes wide open?" \
         # RUSSIAN ROULETTE
         "I just wanna get crazy baby\nSo play me 'till this heart gives out\nStill razor sharp, I'll play my part\nBut this might be where we fall apart, no\nI can't imagine anything more worth it" \
-        # BLADEDANCE
-        "underneath your blade\nwant it in the worst way\ni'm reeling, but you're tearing me apart" \
-        "hooked on the breath and bloodied taste\nof something i can't keep (away from me)" \
-        "lead me astray with daggers in your dead eyes" \
         # Machine Love
         "Zero, cross the great divide" \
         "Can you teach me to be real?" \
@@ -110,13 +123,6 @@ function fish_greeting
         "As long as there are stars up above\nI will always be in love" \
         # melt ice cream
         "I'll give you sweet ICE\nLove me until you die" \
-        # deluge
-        "THE STARS DIVIDING TAKE THEIR FINAL BREATH" \
-        "i had a dream about you last night\nit ended when we died" \
-        # Counter-strike (P5S)
-        "Oh, never forget to show your true colors\nOh, never forget to question destiny\nYou can be more than a puppet" \
-        # I Believe (P5R)
-        "It's our turn to get back\nTo grab the future which we fully believe" \
         # ANTONYMPH
         "It's never too late\nTo fall in love with the world\nYour past is not today\nSo set your stride with a twirl" \
         # Pathological Facade
