@@ -101,6 +101,8 @@ function fish_greeting
         "Searching for something they won't ever find" \
         # I Believe
         "It's our turn to get back\nTo grab the future which we fully believe" \
+        # You Are Stronger
+        "You are stronger than all things that made you weak" \
         \
         ## Other
         # VENOMPHILE
