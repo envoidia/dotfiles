@@ -156,7 +156,7 @@ function fish_greeting
         "\"You have remained long enough in this filthy world.\" Then, all the locked doors opened, untouched--" \
         # Touhou 10: Mountain of Faith
         "Tomorrow will be Special; Yesterday was Not" \
-        # Touhou Spellbroken Dream Festival
+        # Touhou Spellbroken Dream Festival (Original)
         "She Dreamed a Dream of Pain; She Dreamed a Dream of Longing. But above all, she Dreamed a Dream of Hope." \
         # Touhou Fantastic Danmaku Festival 2
         "Everything Ends as Ashes" \
@@ -164,9 +164,23 @@ function fish_greeting
         "I will not die until I achieve something. Even though the ideal is high, I never give in. Therefore, I never die with regrets." \
         # Ulysses
         "To follow knowledge like a sinking star, Beyond the utmost bound of human thought" \
+        "It is not too late to seek a newer world" \
+        # The Book of Earth
+        "Upon the ladder of life that mounts through Time,\nFrom plants to beasts, and up, through man, to God" \
+        "God uttering life, and God receiving death" \
+        # Paradise Lost
+        "The mind is its own place and, in itself can make a Heaven of Hell, a Hell of Heaven" \
+        # The Revolt of Islam
+        "The chains of earth like mist melted away" \
+        # Dante's Inferno
+        "Hope not ever to see Heaven. I have come to lead you to the other shore; into eternal darkness; into fire and into ice" \
+        # Antoine de Saint-Exupéry
+        "The machine does not isolate man from the great problems of nature but plunges him more deeply into them" \
         # SCA (computer virus)
-        "Something wonderful has happened...\nFISH is alive !!!"
-
+        "Something wonderful has happened...\nFISH is alive !!!" \
+        # Original
+        "A SUPERNOVA AT YOUR BECK AND CALL, RIVALING THE FIST OF GOD" \
+        "The Star That Blanks Out the Darkness"
 
     set -l i $(random 1 $(count $greetings))
     set_color brcyan
