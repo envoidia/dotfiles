@@ -15,6 +15,7 @@ function li -w "timg --upscale --frames=1 --title" -d "Show a grid of image prev
     set -l glob
     set -l files
 
+    # Default to current dir
     if test $(count $argv) -eq 0
         set glob $(get_files $_flag_R -d .)
 
@@ -22,6 +23,7 @@ function li -w "timg --upscale --frames=1 --title" -d "Show a grid of image prev
             test -f $f && set -a files $f
         end
     else
+        # Provided dir(s)
         for arg in $argv
             if test -d $arg
                 set glob $(get_files $_flag_R -d $arg)
