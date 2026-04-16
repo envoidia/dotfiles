@@ -36,6 +36,9 @@ function fish_greeting
         "Again and again, reborn and reborn\nDancing on a mountain of corpses" \
         # God-ish
         "Ignorance is bliss, the fruit of knowledge is rotten" \
+        # Don't Believe in T
+        "If it feels good, Even poison's fine to drink" \
+        "\"Stop depending on fake love,\" they say\nDon't tell me, I beg you\nIf I don't blindly believe, I'll go crazy" \
         \
         ## tart
         # BLADEDANCE
