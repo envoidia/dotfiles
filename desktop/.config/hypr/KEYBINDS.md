@@ -28,4 +28,4 @@ Print | Screenshot region
 Shift-Print | Start/stop recording main monitor
 Ctrl-Print | Start/stop recording region
 
-q to close
+q to close this
