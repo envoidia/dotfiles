@@ -47,11 +47,21 @@
     border-color: @bg-light;
 }
 
-#custom-arch, #clock, #pulseaudio, #battery, #custom-brightness, #cpu, #custom-gpu, #memory {
+#custom-arch, #clock, #pulseaudio, #battery, #custom-brightness, #cpu, #custom-cpu-temp, #custom-gpu, #memory {
     padding: 0.3rem 0.7rem;
     margin: 5px 0px; 
     color: @text;
     background-color: @bg;
+}
+
+#cpu {
+    padding-right: 0.2rem;
+    margin-right: 0px;
+}
+
+#custom-cpu-temp {
+    padding-left: 0.2rem;
+    margin-left: 0px;
 }
 
 #custom-arch {
@@ -59,12 +69,12 @@
     margin-left: 20px;
 }
 
-#memory {
+#custom-gpu {
     margin-right: 20px;
 }
 
 #custom-arch:hover, #clock:hover, #pulseaudio:hover, #battery:hover, #custom-brightness:hover, #cpu:hover,
-    #custom-gpu:hover, #memory:hover, #window:hover {
+    #custom-cpu-temp:hover, #custom-gpu:hover, #memory:hover, #window:hover {
     color: white;
     background-color: @bg-light;
 }
