@@ -1,6 +1,6 @@
 #!/usr/bin/env fish
 
-switch $(echo -e "shutdown\nreboot\nlogout\nlock" | fsel --dmenu)
+switch $(echo -e "shutdown\nreboot\nlogout\nlock\nsleep" | fsel --dmenu)
     case shutdown
         shutdown now
     case reboot
@@ -9,4 +9,6 @@ switch $(echo -e "shutdown\nreboot\nlogout\nlock" | fsel --dmenu)
         command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch exit
     case lock
         loginctl lock-session
+    case sleep
+        systemctl suspend
 end
