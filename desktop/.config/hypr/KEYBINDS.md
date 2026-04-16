@@ -1,4 +1,4 @@
-### Hyprland KBs
+### Keybinds
 
 | Super Mod ||
 -|-
@@ -11,18 +11,21 @@ Shift-{Num} | Move active window to {Num} workspace
 J | Change split direction
 LClick | Drag window
 RClick | Resize window
-C | Kill focused window
-Q | Terminal
-R | Launcher
-V | Clipboard history
 Alt-V | Send clipboard to phone
-A | Browser
-S | Editor
-M | Shutdown/reboot/logout menu
-K | pkill menu
+C | Kill focused window
+R | Open app launcher
+Q | Open terminal
+A | Open browser
+S | Open editor
+V | Open clipboard history
+M | Open shutdown/reboot/logout/sleep/lock menu
+K | Open process killing menu
+H | Open help dialog
 
 | Other ||
 -|-
 Print | Screenshot region
 Shift-Print | Start/stop recording main monitor
 Ctrl-Print | Start/stop recording region
+
+q to close
