@@ -76,7 +76,7 @@
 
     "custom/cpu-temp": {
         "interval": 30,
-        "exec": "awk '{printf \"%.0f°C\\n\", $1/1000}' /sys/class/hwmon/hwmon1/temp2_input",
+        "exec": "awk '{printf \"%.0f°C\\n\", $1/1000}' /sys/class/hwmon/hwmon5/temp2_input",
         "format": "- {}",
         "on-click": "kitty --class btop -e btop"
     },
