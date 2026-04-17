@@ -21,6 +21,7 @@ V | Open clipboard history
 M | Open shutdown/reboot/logout/sleep/lock menu
 K | Open process killing menu
 H | Open help dialog
+G | Turn monitors on
 
 | Other ||
 -|-
