@@ -18,6 +18,7 @@ alias cs=csharprepl
 complete -c wl-copy -F
 
 # fzf.fish
+# todo: why does dir preview not have colors and icons?
 set -l hypr ctrl-super
 set fzf_fd_opts -iH
 fzf_configure_bindings --directory=$hypr-f --git_log=$hypr-l --git_status=$hypr-s \
