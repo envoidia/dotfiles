@@ -62,16 +62,16 @@ div[role="button"][aria-label="Mark Unread"],
 
 /* Top toolbar buttons */
 [aria-label="Help"],
+.clickable__81391, /* Inbox, use Ctrl-I */
 [aria-label="Show User Profile (Unavailable)"],
-[aria-label="Show User Profile"], /* Use Ctrl+U */
-[aria-label="Show Member List"], /* Use Ctrl+U */
+[aria-label="Show User Profile"], /* Use Ctrl-U */
+[aria-label="Show Member List"], /* Use Ctrl-U */
 [aria-label="Add Friends to DM"], /* Use + button at top of DMs */
 [aria-label="Start Video Call"],
 [role="button"][aria-label="Notification Settings"], /* Right-click channel */
-.clickable_c99c29, /* Inbox, use Ctrl+I */
 
 /* Find or start a conversation bar */
-.searchBar_e6b769, /* Use Ctrl+K */
+.searchBar_e6b769, /* Use Ctrl-K */
 
 /* Boost goal */
 .container__0d0f9,
