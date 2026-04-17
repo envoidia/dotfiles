@@ -18,14 +18,14 @@ alias cs=csharprepl
 complete -c wl-copy -F
 
 # fzf.fish
+set -l hypr ctrl-super
 set fzf_fd_opts -iH
-fzf_configure_bindings --directory=ctrl-super-f --git_log=ctrl-super-l --git_status=ctrl-super-s \
-    --history=ctrl-super-h --processes=ctrl-super-p --variables=ctrl-super-r
+fzf_configure_bindings --directory=$hypr-f --git_log=$hypr-l --git_status=$hypr-s \
+    --history=$hypr-h --processes=$hypr-p --variables=$hypr-r
 
 # dotnet
-# todo why is it on path 600 billion times
-# set DOTNET_ROOT /usr/share/dotnet
-# set PATH $PATH:/usr/share/dotnet:/home/envoidia/.dotnet/tools
+set DOTNET_ROOT /usr/share/dotnet
+set PATH $PATH:/usr/share/dotnet:/home/envoidia/.dotnet/tools
 
 # Colorize manpages
 set -x LESS_TERMCAP_mb $(printf "\e[1;95m")
