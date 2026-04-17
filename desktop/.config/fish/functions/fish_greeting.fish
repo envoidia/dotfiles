@@ -119,6 +119,8 @@ function fish_greeting
         "What follows after rainy days: Find hope in rainbows\nWhat glimmers in a puddle deep: Find hope in afterglow\nOpen your eyes, open your eyes" \
         "Tie it in, Tie it in\nWith a cord to connect\nSee a world ruled in madness and fear\nTake it in, Take it in\nThrough your veins and again\nFeed the PArAsITe year after year" \
         "What can you see with eyes wide open?\nBut can you see with eyes wide open?" \
+        # Borderline Girl
+        "Why does it matter if what I think is clinically insane?" \
         # RUSSIAN ROULETTE
         "I just wanna get crazy baby\nSo play me 'till this heart gives out\nStill razor sharp, I'll play my part\nBut this might be where we fall apart, no\nI can't imagine anything more worth it" \
         # Machine Love
