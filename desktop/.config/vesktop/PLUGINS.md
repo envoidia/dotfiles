@@ -21,8 +21,17 @@
 - YoutubeAdblock
 
 ### Mobile: Aluicord
+- BetterSilentTyping
+- CloseDMs
 - CopyInsteadOfShareImages
 - DMCategories
+- FakeStickers
+- Frecents
+- FreeNitroEmojis
+- Glance
 - HideBlockedMessages
+- ImageToClipboard
 - LayoutController
+- NativeFriendNicknames
 - TapTap
+- WhoReacted
