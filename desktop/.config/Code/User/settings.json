@@ -1,6 +1,7 @@
 {
 	// #region Basic Settings
 	"editor.formatOnSave": true,
+	"dotnet.formatting.organizeImportsOnFormat": true,
 	"editor.formatOnPaste": true,
     "files.autoSave": "afterDelay",
 	
@@ -285,6 +286,6 @@
 			"preprocessorText": "#da86d1",
 			"event": "#DCDCAA"
   		}
-	}
+	},
 	// #endregion
 }
