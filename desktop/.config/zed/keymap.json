@@ -637,4 +637,16 @@
       "ctrl-enter": "search::ReplaceAll",
     },
   },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-p": "diagnostics::Deploy",
+    },
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "ctrl-shift-m": "diagnostics::Deploy",
+    },
+  },
 ]

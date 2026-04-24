@@ -81,6 +81,7 @@ Ctrl-Shift-T | To symbol in workspace
 Ctrl-. | Context actions
 Ctrl-H | Show hover
 F2 | Rename symbol
+Alt-P | Show diagnostics
 F8 | To next diagnostic
 Shift-F8 | To prev diagnostic
 Alt-Enter | Open file from references/search view
