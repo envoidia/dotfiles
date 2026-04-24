@@ -111,7 +111,6 @@ Ctrl-F11 | Step into
 -|-
 Ctrl-B | Toggle sidebar
 Hypr-E | Explorer
-Ctrl-Shift-F2 | Solution explorer rename
 Hypr-G | Git
 Hypr-D | Debug
 Hypr-O | Outline
