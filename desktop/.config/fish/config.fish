@@ -1,3 +1,5 @@
+### aliases
+# basic file ops
 alias ls="lsd -A --hyperlink=auto"
 alias ll="ls -lS"
 alias lt="ls --tree"
@@ -5,18 +7,20 @@ alias fd="fd -iH"
 alias rg="kitten hyperlinked-grep -i --hidden"
 alias du=dust
 alias cat=bat
-
-alias drd="dragon-drop --and-exit"
-
 alias mv="mv -i"
 alias cp="cp -i"
-
-alias cs=csharprepl
-alias ic="kitten icat"
+# editors
 alias vim=nvim
+alias v=vim
+alias zed=zeditor
+alias z=zed
+# other
+alias drd="dragon-drop --and-exit"
+alias ic="kitten icat"
+alias cs=csharprepl
 
-# Enable file path completion
-# This is technically wrong for wl-copy, but I only use it via a wrapper, and adding it to the wrapper doesn't work
+# enable file path completion
+# this is technically wrong for wl-copy, but i only use it via a wrapper, and adding it to the wrapper doesn't work
 complete -c wl-copy -F
 
 # fzf.fish
@@ -27,9 +31,8 @@ fzf_configure_bindings --directory=$hypr-f --git_log=$hypr-l --git_status=$hypr-
 
 # dotnet
 set DOTNET_ROOT /usr/share/dotnet
-set PATH $PATH:/usr/share/dotnet:/home/envoidia/.dotnet/tools
 
-# Colorize manpages
+# colorize manpages
 set -x LESS_TERMCAP_mb $(printf "\e[1;95m")
 set -x LESS_TERMCAP_md $(printf "\e[1;95m")
 set -x LESS_TERMCAP_us $(printf "\e[4;1;94m")

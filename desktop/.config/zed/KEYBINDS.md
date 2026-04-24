@@ -1,4 +1,4 @@
-# VSCode Keybinds
+# Zed Keybinds
 
 # Navigation
 | Text || 
@@ -9,8 +9,7 @@ Ctrl | Navigate symbol-wise
 Alt | Navigate word-wise
 Home/End | To line home/end
 Hypr-Up/Down | Move up/down 10 lines
-Hypr-Left/Right | To left/right bracket
-Hypr-Alt-Left/Right | To left/right bracket at same or higher scope
+Hypr-Left/Right | To start/end of larger syntax node
 Ctrl-G | To line
 Ctrl-U | Cursor undo
 Ctrl-Shift-U | Cursor redo
@@ -23,7 +22,6 @@ Shift-Tab | Outdent
 | Selection || 
 -|-
 Shift | Select while navigating
-Alt-E/R | Expand/shrink selection
 Ctrl-C | Copy
 Ctrl-X | Cut
 Ctrl-V | Paste
@@ -35,7 +33,6 @@ BkSp | Delete left
 Del | Delete right
 Ctrl-Shift-BkSp | Delete all left
 Ctrl-Shift-Del | Delete all right
-Ctrl-Alt-BkSp | Delete brackets
 
 | Lines || 
 -|-
@@ -72,7 +69,6 @@ Ctrl-K Left/Right | Move group left/right
 | Multicursor || 
 -|-
 Ctrl-Shift-Up/Down | Create cursor up/down
-Ctrl-Shift-L | Add cursors at search results
 Alt-Click | Create cursor there
 Esc | Remove extra cursors
 
@@ -80,14 +76,11 @@ Esc | Remove extra cursors
 | Navigation || 
 -|-
 F1 | To definition/uses
-F4 | To next use
-Shift-F4 | To previous use
 Ctrl-T | To symbol
+Ctrl-Shift-T | To symbol in workspace
 Ctrl-. | Context actions
 Ctrl-H | Show hover
 F2 | Rename symbol
-F8 | To next problem
-Shift-F8 | To prev problem
 
 | Folding || 
 -|-
@@ -105,9 +98,9 @@ Shift-F5 | Stop debugging
 Ctrl-Shift-F5 | Restart debugging
 F6 | Pause
 F9 | Toggle breakpoint
-Shift-F9 | Toggle inline breakpoint
-F10 | Step over
-F11 | Step into
+Shift-F9 | Toggle log breakpoint
+Shift-F11 | Step out
+Ctrl-F11 | Step into
 
 # Misc
 | Sidebar || 
@@ -117,15 +110,12 @@ Hypr-E | Explorer
 Ctrl-Shift-F2 | Solution explorer rename
 Hypr-G | Git
 Hypr-D | Debug
+Hypr-O | Outline
 Hypr-X | Extensions
 
 | Bottom Panel || 
 -|-
-Hypr-1 | Toggle bottom panel
-Alt-P | Problems
-Alt-O | Output
-Alt-G | Debug
-Alt-N | Nuget
+Alt-D | Debug
 Alt-T | Terminal
 
 | Search || 
@@ -138,11 +128,6 @@ Ctrl-S | Search editor apply changes
 F3 | Find next
 Shift-F3 | Find previous
 
-|Diff || 
--|-
-Alt-F3 | To next change
-Shift-Alt-F3 | To previous change
-
 |Misc || 
 -|-
 Ctrl-S | Save
@@ -151,6 +136,8 @@ Ctrl-Y | Redo
 Ctrl-Shift-P | Command palette
 Ctrl-, | Settings
 Ctrl-K Ctrl-S | Keybinds
+Ctrl-Alt-V | Preview markdown
 Ctrl-Shift-V | Preview markdown to the side
 Ctrl-Shift-N | New window
 Ctrl-K Ctrl-O | Open folder
+Alt-R | Open recent project
