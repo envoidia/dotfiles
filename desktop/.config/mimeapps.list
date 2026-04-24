@@ -1,8 +1,8 @@
 [Default Applications]
-text/plain=code.desktop
-text/vtt=code.desktop
-application/json=code.desktop
-application/pgp-encrypted=code.desktop
-text/x-shellscript=code.desktop
-text/x-c++=code.desktop
-x-scheme-handler/discord=vesktop.desktop
+text/plain=dev.zed.Zed.desktop
+text/vtt=dev.zed.Zed.desktop
+application/json=dev.zed.Zed.desktop
+application/pgp-encrypted=dev.zed.Zed.desktop
+text/x-shellscript=dev.zed.Zed.desktop
+text/x-c++=dev.zed.Zed.desktop
+x-scheme-handler/discord=dev.zed.Zed.desktop
