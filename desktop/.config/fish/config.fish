@@ -30,6 +30,7 @@ fzf_configure_bindings --directory=$hypr-f --git_log=$hypr-l --git_status=$hypr-
     --history=$hypr-h --processes=$hypr-p --variables=$hypr-r
 
 # dotnet
+set PATH $PATH:/usr/share/dotnet:/home/envoidia/.dotnet/tools
 set DOTNET_ROOT /usr/share/dotnet
 
 # colorize manpages
