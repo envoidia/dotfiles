@@ -669,4 +669,24 @@
       ],
     },
   },
+  {
+    "bindings": {
+      "ctrl-alt-left": [
+        "workspace::MoveItemToPaneInDirection",
+        {
+          "direction": "left",
+        },
+      ],
+    },
+  },
+  {
+    "bindings": {
+      "ctrl-alt-right": [
+        "workspace::MoveItemToPaneInDirection",
+        {
+          "direction": "right",
+        },
+      ],
+    },
+  },
 ]

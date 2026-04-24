@@ -64,7 +64,6 @@ Ctrl-Shift-\  | Split tab to right group
 Ctrl-Shift-Alt-\  | Split tab to left group
 Ctrl-{Num} | To {Num} group
 Ctrl-Alt-Left/Right | Move tab to prev/next group
-Ctrl-K Left/Right | Move group left/right
 
 | Multicursor || 
 -|-
