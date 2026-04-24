@@ -649,4 +649,24 @@
       "ctrl-shift-m": "diagnostics::Deploy",
     },
   },
+  {
+    "bindings": {
+      "ctrl-super-shift-up": [
+        "editor::SelectUpByLines",
+        {
+          "lines": 10,
+        },
+      ],
+    },
+  },
+  {
+    "bindings": {
+      "ctrl-super-shift-down": [
+        "editor::SelectDownByLines",
+        {
+          "lines": 10,
+        },
+      ],
+    },
+  },
 ]
