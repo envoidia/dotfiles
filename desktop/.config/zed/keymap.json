@@ -193,44 +193,20 @@
   },
   {
     "context": "BufferSearchBar",
-    "bindings": {
-      "ctrl-r": "search::ToggleReplace",
-    },
-  },
-  {
-    "context": "BufferSearchBar",
     "unbind": {
       "ctrl-h": "search::ToggleReplace",
     },
   },
   {
     "context": "ProjectSearchBar",
-    "bindings": {
-      "ctrl-shift-r": "search::ToggleReplace",
-    },
-  },
-  {
-    "context": "ProjectSearchBar",
     "unbind": {
       "ctrl-shift-h": "search::ToggleReplace",
     },
   },
   {
     "context": "ProjectSearchView",
-    "bindings": {
-      "ctrl-shift-r": "search::ToggleReplace",
-    },
-  },
-  {
-    "context": "ProjectSearchView",
     "unbind": {
       "ctrl-shift-h": "search::ToggleReplace",
-    },
-  },
-  {
-    "context": "Pane",
-    "bindings": {
-      "ctrl-alt-shift-r": "search::ToggleReplace",
     },
   },
   {
@@ -687,6 +663,23 @@
           "direction": "right",
         },
       ],
+    },
+  },
+  {
+    "bindings": {
+      "ctrl-r": "search::ToggleReplace",
+    },
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-super-k": "editor::DeleteLine",
+    },
+  },
+  {
+    "context": "Editor",
+    "unbind": {
+      "ctrl-shift-k": "editor::DeleteLine",
     },
   },
 ]

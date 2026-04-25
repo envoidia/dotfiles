@@ -40,7 +40,7 @@ Alt-Up/Down | Move line
 Ctrl-Alt-Up/Down | Duplicate line
 Ctrl-L | Select line
 Ctrl-/ | Comment/uncomment line/selection
-Ctrk-Shift-K | Delete line
+Hypr-K | Delete line
 Ctrl-[ | Outdent line
 Ctrl-] | Indent line
 

@@ -14,6 +14,7 @@
 - PinDMS
 - ServerInfo
 - SilentTyping (button disabled)
+- ShikiCodeblocks
 - ViewRaw (button disabled)
 - WebKeybinds
 - WebScreenShareFixes
