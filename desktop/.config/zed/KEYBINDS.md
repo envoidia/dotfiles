@@ -22,6 +22,7 @@ Shift-Tab | Outdent
 | Selection || 
 -|-
 Shift | Select while navigating
+Alt-Q/W | Expand/shrink selection
 Ctrl-C | Copy
 Ctrl-X | Cut
 Ctrl-V | Paste

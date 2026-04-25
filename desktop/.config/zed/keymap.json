@@ -682,4 +682,28 @@
       "ctrl-shift-k": "editor::DeleteLine",
     },
   },
+  {
+    "context": "Editor",
+    "bindings": {
+      "alt-q": "editor::SelectLargerSyntaxNode",
+    },
+  },
+  {
+    "context": "Editor",
+    "unbind": {
+      "alt-shift-right": "editor::SelectLargerSyntaxNode",
+    },
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "alt-w": "editor::SelectSmallerSyntaxNode",
+    },
+  },
+  {
+    "context": "Editor",
+    "unbind": {
+      "alt-shift-left": "editor::SelectSmallerSyntaxNode",
+    },
+  },
 ]
