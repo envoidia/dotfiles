@@ -315,7 +315,7 @@
         "command": "-bracket-jumper.selectAscendRight",
         "when": "editorTextFocus"
     },
-     {
+    {
         "key": "ctrl+alt+up",
         "command": "editor.action.copyLinesUpAction",
         "when": "editorTextFocus && !editorReadonly"
@@ -463,9 +463,9 @@
         "command": "-workbench.action.splitEditorLeft"
     },
     {
-    "key": "ctrl+s",
-    "command": "searchEditorApplyChanges.apply",
-    "when": "inSearchEditor"
+        "key": "ctrl+s",
+        "command": "searchEditorApplyChanges.apply",
+        "when": "inSearchEditor"
     },
     // #endregion
 
@@ -473,9 +473,18 @@
     {
         "key": "alt+d",
         "command": "extension.multiCommand.execute",
-        "args": { 
+        "args": {
             "sequence": [
-                "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp"
+                "cursorUp",
+                "cursorUp",
+                "cursorUp",
+                "cursorUp",
+                "cursorUp",
+                "cursorUp",
+                "cursorUp",
+                "cursorUp",
+                "cursorUp",
+                "cursorUp"
             ]
         },
         "when": "textInputFocus"
@@ -483,19 +492,37 @@
     {
         "key": "alt+f",
         "command": "extension.multiCommand.execute",
-        "args": { 
+        "args": {
             "sequence": [
-                "cursorDown", "cursorDown", "cursorDown", "cursorDown", "cursorDown", "cursorDown", "cursorDown", "cursorDown", "cursorDown", "cursorDown"
+                "cursorDown",
+                "cursorDown",
+                "cursorDown",
+                "cursorDown",
+                "cursorDown",
+                "cursorDown",
+                "cursorDown",
+                "cursorDown",
+                "cursorDown",
+                "cursorDown"
             ]
         },
         "when": "textInputFocus"
     },
-     {
+    {
         "key": "shift+alt+d",
         "command": "extension.multiCommand.execute",
-        "args": { 
+        "args": {
             "sequence": [
-                "cursorUpSelect", "cursorUpSelect", "cursorUpSelect", "cursorUpSelect", "cursorUpSelect", "cursorUpSelect", "cursorUpSelect", "cursorUpSelect", "cursorUpSelect", "cursorUpSelect"
+                "cursorUpSelect",
+                "cursorUpSelect",
+                "cursorUpSelect",
+                "cursorUpSelect",
+                "cursorUpSelect",
+                "cursorUpSelect",
+                "cursorUpSelect",
+                "cursorUpSelect",
+                "cursorUpSelect",
+                "cursorUpSelect"
             ]
         },
         "when": "textInputFocus"
@@ -503,9 +530,18 @@
     {
         "key": "shift+alt+f",
         "command": "extension.multiCommand.execute",
-        "args": { 
+        "args": {
             "sequence": [
-                "cursorDownSelect", "cursorDownSelect", "cursorDownSelect", "cursorDownSelect", "cursorDownSelect", "cursorDownSelect", "cursorDownSelect", "cursorDownSelect", "cursorDownSelect", "cursorDownSelect"
+                "cursorDownSelect",
+                "cursorDownSelect",
+                "cursorDownSelect",
+                "cursorDownSelect",
+                "cursorDownSelect",
+                "cursorDownSelect",
+                "cursorDownSelect",
+                "cursorDownSelect",
+                "cursorDownSelect",
+                "cursorDownSelect"
             ]
         },
         "when": "textInputFocus"

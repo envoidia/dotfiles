@@ -2,7 +2,7 @@
 - BetterGifPicker
 - CrashHandler
 - F8Break
-- FakeNitro (fake emoji disabled)
+- FakeNitro
 - FavoriteEmojiFirst
 - FavoriteGifSearch
 - FixYoutubeEmbeds

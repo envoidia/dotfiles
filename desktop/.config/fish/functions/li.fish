@@ -1,6 +1,6 @@
 # todo: auto-determine optimal column count
 function li -w "timg --upscale --frames=1 --title" -d "Show a grid of image previews"
-    argparse 'h/help' 'c/columns=' 'R/recursive' -- $argv
+    argparse h/help 'c/columns=' R/recursive -- $argv
     or return
 
     if set -q _flag_h
@@ -41,7 +41,7 @@ function li -w "timg --upscale --frames=1 --title" -d "Show a grid of image prev
 end
 
 function get_files
-    argparse 'R/recursive' 'd/dir=' -- $argv
+    argparse R/recursive 'd/dir=' -- $argv
     or return
 
     set -l glob

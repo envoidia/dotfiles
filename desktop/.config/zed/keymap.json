@@ -6,710 +6,710 @@
 // To see the default key bindings run `zed: open default keymap`
 // from the command palette.
 [
-  {
-    "context": "Workspace",
-    "bindings": {
-      // "shift shift": "file_finder::Toggle"
-    },
-  },
-  {
-    "context": "Editor && vim_mode == insert",
-    "bindings": {
-      // "j k": "vim::NormalBefore"
-    },
-  },
-  {
-    "context": "Editor",
-    "bindings": {
-      "alt-right": "editor::MoveToNextSubwordEnd",
-    },
-  },
-  {
-    "context": "Editor",
-    "unbind": {
-      "ctrl-alt-right": "editor::MoveToNextSubwordEnd",
-    },
-  },
-  {
-    "context": "Editor",
-    "bindings": {
-      "alt-shift-right": "editor::SelectToNextSubwordEnd",
-    },
-  },
-  {
-    "context": "Editor",
-    "unbind": {
-      "ctrl-alt-shift-f": "editor::SelectToNextSubwordEnd",
-    },
-  },
-  {
-    "context": "Editor",
-    "bindings": {
-      "alt-delete": "editor::DeleteToNextSubwordEnd",
-    },
-  },
-  {
-    "context": "Editor",
-    "unbind": {
-      "ctrl-alt-delete": "editor::DeleteToNextSubwordEnd",
-    },
-  },
-  {
-    "context": "Editor",
-    "bindings": {
-      "alt-left": "editor::MoveToPreviousSubwordStart",
-    },
-  },
-  {
-    "context": "Editor",
-    "unbind": {
-      "ctrl-alt-left": "editor::MoveToPreviousSubwordStart",
-    },
-  },
-  {
-    "context": "Editor",
-    "bindings": {
-      "alt-shift-left": "editor::SelectToPreviousSubwordStart",
-    },
-  },
-  {
-    "context": "Editor",
-    "unbind": {
-      "ctrl-alt-shift-b": "editor::SelectToPreviousSubwordStart",
-    },
-  },
-  {
-    "context": "Editor",
-    "bindings": {
-      "alt-backspace": "editor::DeleteToPreviousSubwordStart",
-    },
-  },
-  {
-    "context": "Editor",
-    "unbind": {
-      "ctrl-alt-h": "editor::DeleteToPreviousSubwordStart",
-    },
-  },
-  {
-    "context": "Editor",
-    "bindings": {
-      "ctrl-alt-up": "editor::DuplicateLineUp",
-    },
-  },
-  {
-    "context": "Editor",
-    "unbind": {
-      "ctrl-alt-shift-up": "editor::DuplicateLineUp",
-    },
-  },
-  {
-    "context": "Editor",
-    "bindings": {
-      "ctrl-alt-down": "editor::DuplicateLineDown",
-    },
-  },
-  {
-    "context": "Editor",
-    "unbind": {
-      "ctrl-alt-shift-down": "editor::DuplicateLineDown",
-    },
-  },
-  {
-    "bindings": {
-      "f7": "editor::FindNextMatch",
-    },
-  },
-  {
-    "bindings": {
-      "shift-f7": "editor::FindPreviousMatch",
-    },
-  },
-  {
-    "bindings": {
-      "ctrl-super-delete": "editor::DeleteToEndOfLine",
-    },
-  },
-  {
-    "bindings": {
-      "ctrl-super-backspace": "editor::DeleteToBeginningOfLine",
-    },
-  },
-  {
-    "bindings": {
-      "ctrl-\\": "pane::SplitAndMoveRight",
-    },
-  },
-  {
-    "bindings": {
-      "ctrl-alt-\\": "pane::SplitAndMoveLeft",
-    },
-  },
-  {
-    "context": "Terminal",
-    "bindings": {
-      "ctrl-|": "pane::SplitRight",
-    },
-  },
-  {
-    "context": "Terminal",
-    "unbind": {
-      "ctrl-shift-5": "pane::SplitRight",
-    },
-  },
-  {
-    "context": "Pane",
-    "bindings": {
-      "ctrl-alt-|": "pane::SplitLeft",
-    },
-  },
-  {
-    "context": "Pane",
-    "unbind": {
-      "ctrl-k left": "pane::SplitLeft",
-    },
-  },
-  {
-    "context": "Editor",
-    "unbind": {
-      "ctrl-shift-down": [
-        "editor::SelectNext",
-        {
-          "replace_newest": false,
+    {
+        "context": "Workspace",
+        "bindings": {
+            // "shift shift": "file_finder::Toggle"
         },
-      ],
     },
-  },
-  {
-    "context": "Editor",
-    "bindings": {
-      "f1": "editor::GoToDefinition",
-    },
-  },
-  {
-    "context": "Editor",
-    "unbind": {
-      "f12": "editor::GoToDefinition",
-    },
-  },
-  {
-    "context": "BufferSearchBar",
-    "unbind": {
-      "ctrl-h": "search::ToggleReplace",
-    },
-  },
-  {
-    "context": "ProjectSearchBar",
-    "unbind": {
-      "ctrl-shift-h": "search::ToggleReplace",
-    },
-  },
-  {
-    "context": "ProjectSearchView",
-    "unbind": {
-      "ctrl-shift-h": "search::ToggleReplace",
-    },
-  },
-  {
-    "context": "Pane",
-    "unbind": {
-      "ctrl-alt-shift-h": "search::ToggleReplace",
-    },
-  },
-  {
-    "context": "Workspace",
-    "unbind": {
-      "ctrl-shift-r": [
-        "task::Rerun",
-        {
-          "reevaluate_context": false,
+    {
+        "context": "Editor && vim_mode == insert",
+        "bindings": {
+            // "j k": "vim::NormalBefore"
         },
-      ],
     },
-  },
-  {
-    "context": "Editor && mode == full",
-    "unbind": {
-      "ctrl-shift-o": "outline::Toggle",
-    },
-  },
-  {
-    "bindings": {
-      "ctrl-t": "outline::Toggle",
-    },
-  },
-  {
-    "context": "Workspace",
-    "bindings": {
-      "ctrl-alt-t": "project_symbols::Toggle",
-    },
-  },
-  {
-    "context": "Workspace",
-    "unbind": {
-      "ctrl-t": "project_symbols::Toggle",
-    },
-  },
-  {
-    "context": "Workspace",
-    "unbind": {
-      "ctrl-`": "terminal_panel::Toggle",
-    },
-  },
-  {
-    "context": "Terminal",
-    "unbind": {
-      "alt-t": "terminal::RerunTask",
-    },
-  },
-  {
-    "context": "Workspace",
-    "unbind": {
-      "ctrl-shift-g": "git_panel::ToggleFocus",
-    },
-  },
-  {
-    "context": "Workspace",
-    "unbind": {
-      "ctrl-shift-d": "debug_panel::ToggleFocus",
-    },
-  },
-  {
-    "context": "Workspace",
-    "bindings": {
-      "alt-r": [
-        "projects::OpenRecent",
-        {
-          "create_new_window": false,
+    {
+        "context": "Editor",
+        "bindings": {
+            "alt-right": "editor::MoveToNextSubwordEnd",
         },
-      ],
     },
-  },
-  {
-    "context": "Workspace",
-    "unbind": {
-      "ctrl-r": [
-        "projects::OpenRecent",
-        {
-          "create_new_window": false,
+    {
+        "context": "Editor",
+        "unbind": {
+            "ctrl-alt-right": "editor::MoveToNextSubwordEnd",
         },
-      ],
     },
-  },
-  {
-    "context": "Editor",
-    "unbind": {
-      "alt-shift-down": [
-        "editor::AddSelectionBelow",
-        {
-          "skip_soft_wrap": true,
+    {
+        "context": "Editor",
+        "bindings": {
+            "alt-shift-right": "editor::SelectToNextSubwordEnd",
         },
-      ],
     },
-  },
-  {
-    "bindings": {
-      "alt-shift-down": [
-        "editor::AddSelectionBelow",
-        {
-          "skip_soft_wrap": true,
+    {
+        "context": "Editor",
+        "unbind": {
+            "ctrl-alt-shift-f": "editor::SelectToNextSubwordEnd",
         },
-      ],
     },
-  },
-  {
-    "context": "Workspace",
-    "unbind": {
-      "ctrl-shift-b": "outline_panel::ToggleFocus",
-    },
-  },
-  {
-    "bindings": {
-      "ctrl-super-o": "outline_panel::Toggle",
-    },
-  },
-  {
-    "bindings": {
-      "ctrl-super-g": "git_panel::Toggle",
-    },
-  },
-  {
-    "bindings": {
-      "alt-d": "debug_panel::Toggle",
-    },
-  },
-  {
-    "context": "Workspace",
-    "unbind": {
-      "ctrl-shift-e": "project_panel::ToggleFocus",
-    },
-  },
-  {
-    "context": "AgentPanel",
-    "unbind": {
-      "ctrl-shift-e": "project_panel::ToggleFocus",
-    },
-  },
-  {
-    "bindings": {
-      "ctrl-super-e": "project_panel::Toggle",
-    },
-  },
-  {
-    "bindings": {
-      "alt-t": "terminal_panel::Toggle",
-    },
-  },
-  {
-    "context": "Editor && mode == full",
-    "unbind": {
-      "ctrl-alt-shift-backspace": "editor::GoToNextChange",
-    },
-  },
-  {
-    "context": "Editor && mode == full",
-    "unbind": {
-      "ctrl-shift-backspace": "editor::GoToPreviousChange",
-    },
-  },
-  {
-    "context": "Pane",
-    "bindings": {
-      "ctrl-super-t": [
-        "pane::CloseOtherItems",
-        {
-          "close_pinned": false,
+    {
+        "context": "Editor",
+        "bindings": {
+            "alt-delete": "editor::DeleteToNextSubwordEnd",
         },
-      ],
     },
-  },
-  {
-    "context": "Pane",
-    "unbind": {
-      "ctrl-alt-t": [
-        "pane::CloseOtherItems",
-        {
-          "close_pinned": false,
+    {
+        "context": "Editor",
+        "unbind": {
+            "ctrl-alt-delete": "editor::DeleteToNextSubwordEnd",
         },
-      ],
     },
-  },
-  {
-    "context": "Editor && extension == md",
-    "bindings": {
-      "ctrl-shift-v": "markdown::OpenPreviewToTheSide",
-    },
-  },
-  {
-    "context": "Editor && extension == md",
-    "unbind": {
-      "ctrl-k v": "markdown::OpenPreviewToTheSide",
-    },
-  },
-  {
-    "context": "Editor && extension == md",
-    "bindings": {
-      "ctrl-alt-v": "markdown::OpenPreview",
-    },
-  },
-  {
-    "context": "Editor && extension == md",
-    "unbind": {
-      "ctrl-shift-v": "markdown::OpenPreview",
-    },
-  },
-  {
-    "context": "Workspace",
-    "bindings": {
-      "ctrl-9": ["workspace::ActivatePane", 8],
-    },
-  },
-  {
-    "context": "Workspace",
-    "unbind": {
-      "alt-9": ["workspace::ActivatePane", 8],
-    },
-  },
-  {
-    "context": "Workspace",
-    "bindings": {
-      "ctrl-8": ["workspace::ActivatePane", 7],
-    },
-  },
-  {
-    "context": "Workspace",
-    "unbind": {
-      "alt-8": ["workspace::ActivatePane", 7],
-    },
-  },
-  {
-    "context": "Workspace",
-    "bindings": {
-      "ctrl-7": ["workspace::ActivatePane", 6],
-    },
-  },
-  {
-    "context": "Workspace",
-    "unbind": {
-      "alt-7": ["workspace::ActivatePane", 6],
-    },
-  },
-  {
-    "context": "Workspace",
-    "bindings": {
-      "ctrl-6": ["workspace::ActivatePane", 5],
-    },
-  },
-  {
-    "context": "Workspace",
-    "unbind": {
-      "alt-6": ["workspace::ActivatePane", 5],
-    },
-  },
-  {
-    "context": "Workspace",
-    "bindings": {
-      "ctrl-5": ["workspace::ActivatePane", 4],
-    },
-  },
-  {
-    "context": "Workspace",
-    "unbind": {
-      "alt-5": ["workspace::ActivatePane", 4],
-    },
-  },
-  {
-    "context": "Workspace",
-    "bindings": {
-      "ctrl-4": ["workspace::ActivatePane", 3],
-    },
-  },
-  {
-    "context": "Workspace",
-    "unbind": {
-      "alt-4": ["workspace::ActivatePane", 3],
-    },
-  },
-  {
-    "context": "Workspace",
-    "bindings": {
-      "ctrl-3": ["workspace::ActivatePane", 2],
-    },
-  },
-  {
-    "context": "Workspace",
-    "unbind": {
-      "alt-3": ["workspace::ActivatePane", 2],
-    },
-  },
-  {
-    "context": "Workspace",
-    "bindings": {
-      "ctrl-2": ["workspace::ActivatePane", 1],
-    },
-  },
-  {
-    "context": "Workspace",
-    "unbind": {
-      "alt-2": ["workspace::ActivatePane", 1],
-    },
-  },
-  {
-    "context": "Workspace",
-    "bindings": {
-      "ctrl-1": ["workspace::ActivatePane", 0],
-    },
-  },
-  {
-    "context": "Workspace",
-    "unbind": {
-      "alt-1": ["workspace::ActivatePane", 0],
-    },
-  },
-  {
-    "bindings": {
-      "ctrl-super-up": [
-        "editor::MoveUpByLines",
-        {
-          "lines": 10,
+    {
+        "context": "Editor",
+        "bindings": {
+            "alt-left": "editor::MoveToPreviousSubwordStart",
         },
-      ],
     },
-  },
-  {
-    "bindings": {
-      "ctrl-super-down": [
-        "editor::MoveDownByLines",
-        {
-          "lines": 10,
+    {
+        "context": "Editor",
+        "unbind": {
+            "ctrl-alt-left": "editor::MoveToPreviousSubwordStart",
         },
-      ],
     },
-  },
-  {
-    "context": "Workspace",
-    "bindings": {
-      "ctrl-super-x": "zed::Extensions",
-    },
-  },
-  {
-    "context": "Workspace",
-    "unbind": {
-      "ctrl-shift-x": "zed::Extensions",
-    },
-  },
-  {
-    "context": "Editor",
-    "bindings": {
-      "ctrl-h": "editor::Hover",
-    },
-  },
-  {
-    "context": "Editor",
-    "unbind": {
-      "ctrl-k ctrl-i": "editor::Hover",
-    },
-  },
-  {
-    "context": "Editor",
-    "bindings": {
-      "ctrl-super-a": "editor::MoveToEnclosingBracket",
-    },
-  },
-  {
-    "context": "Editor",
-    "unbind": {
-      "ctrl-m": "editor::MoveToEnclosingBracket",
-    },
-  },
-  {
-    "bindings": {
-      "ctrl-super-shift-right": "editor::SelectToEndOfLargerSyntaxNode",
-    },
-  },
-  {
-    "bindings": {
-      "ctrl-super-right": "editor::MoveToEndOfLargerSyntaxNode",
-    },
-  },
-  {
-    "bindings": {
-      "ctrl-super-left": "editor::MoveToStartOfLargerSyntaxNode",
-    },
-  },
-  {
-    "bindings": {
-      "ctrl-super-shift-left": "editor::SelectToStartOfLargerSyntaxNode",
-    },
-  },
-  {
-    "context": "BufferSearchBar && in_replace > Editor",
-    "bindings": {
-      "ctrl-alt-enter": "search::ReplaceAll",
-    },
-  },
-  {
-    "context": "BufferSearchBar && in_replace > Editor",
-    "unbind": {
-      "ctrl-enter": "search::ReplaceAll",
-    },
-  },
-  {
-    "context": "Workspace",
-    "bindings": {
-      "alt-p": "diagnostics::Deploy",
-    },
-  },
-  {
-    "context": "Workspace",
-    "unbind": {
-      "ctrl-shift-m": "diagnostics::Deploy",
-    },
-  },
-  {
-    "bindings": {
-      "ctrl-super-shift-up": [
-        "editor::SelectUpByLines",
-        {
-          "lines": 10,
+    {
+        "context": "Editor",
+        "bindings": {
+            "alt-shift-left": "editor::SelectToPreviousSubwordStart",
         },
-      ],
     },
-  },
-  {
-    "bindings": {
-      "ctrl-super-shift-down": [
-        "editor::SelectDownByLines",
-        {
-          "lines": 10,
+    {
+        "context": "Editor",
+        "unbind": {
+            "ctrl-alt-shift-b": "editor::SelectToPreviousSubwordStart",
         },
-      ],
     },
-  },
-  {
-    "bindings": {
-      "ctrl-alt-left": [
-        "workspace::MoveItemToPaneInDirection",
-        {
-          "direction": "left",
+    {
+        "context": "Editor",
+        "bindings": {
+            "alt-backspace": "editor::DeleteToPreviousSubwordStart",
         },
-      ],
     },
-  },
-  {
-    "bindings": {
-      "ctrl-alt-right": [
-        "workspace::MoveItemToPaneInDirection",
-        {
-          "direction": "right",
+    {
+        "context": "Editor",
+        "unbind": {
+            "ctrl-alt-h": "editor::DeleteToPreviousSubwordStart",
         },
-      ],
     },
-  },
-  {
-    "bindings": {
-      "ctrl-r": "search::ToggleReplace",
+    {
+        "context": "Editor",
+        "bindings": {
+            "ctrl-alt-up": "editor::DuplicateLineUp",
+        },
     },
-  },
-  {
-    "context": "Editor",
-    "bindings": {
-      "ctrl-super-k": "editor::DeleteLine",
+    {
+        "context": "Editor",
+        "unbind": {
+            "ctrl-alt-shift-up": "editor::DuplicateLineUp",
+        },
     },
-  },
-  {
-    "context": "Editor",
-    "unbind": {
-      "ctrl-shift-k": "editor::DeleteLine",
+    {
+        "context": "Editor",
+        "bindings": {
+            "ctrl-alt-down": "editor::DuplicateLineDown",
+        },
     },
-  },
-  {
-    "context": "Editor",
-    "bindings": {
-      "alt-q": "editor::SelectLargerSyntaxNode",
+    {
+        "context": "Editor",
+        "unbind": {
+            "ctrl-alt-shift-down": "editor::DuplicateLineDown",
+        },
     },
-  },
-  {
-    "context": "Editor",
-    "unbind": {
-      "alt-shift-right": "editor::SelectLargerSyntaxNode",
+    {
+        "bindings": {
+            "f7": "editor::FindNextMatch",
+        },
     },
-  },
-  {
-    "context": "Editor",
-    "bindings": {
-      "alt-w": "editor::SelectSmallerSyntaxNode",
+    {
+        "bindings": {
+            "shift-f7": "editor::FindPreviousMatch",
+        },
     },
-  },
-  {
-    "context": "Editor",
-    "unbind": {
-      "alt-shift-left": "editor::SelectSmallerSyntaxNode",
+    {
+        "bindings": {
+            "ctrl-super-delete": "editor::DeleteToEndOfLine",
+        },
     },
-  },
-  {
-    "context": "Terminal",
-    "bindings": {
-      "ctrl-super-f": ["terminal::SendText", "_fzf_search_directory"],
+    {
+        "bindings": {
+            "ctrl-super-backspace": "editor::DeleteToBeginningOfLine",
+        },
     },
-  },
+    {
+        "bindings": {
+            "ctrl-\\": "pane::SplitAndMoveRight",
+        },
+    },
+    {
+        "bindings": {
+            "ctrl-alt-\\": "pane::SplitAndMoveLeft",
+        },
+    },
+    {
+        "context": "Terminal",
+        "bindings": {
+            "ctrl-|": "pane::SplitRight",
+        },
+    },
+    {
+        "context": "Terminal",
+        "unbind": {
+            "ctrl-shift-5": "pane::SplitRight",
+        },
+    },
+    {
+        "context": "Pane",
+        "bindings": {
+            "ctrl-alt-|": "pane::SplitLeft",
+        },
+    },
+    {
+        "context": "Pane",
+        "unbind": {
+            "ctrl-k left": "pane::SplitLeft",
+        },
+    },
+    {
+        "context": "Editor",
+        "unbind": {
+            "ctrl-shift-down": [
+                "editor::SelectNext",
+                {
+                    "replace_newest": false,
+                },
+            ],
+        },
+    },
+    {
+        "context": "Editor",
+        "bindings": {
+            "f1": "editor::GoToDefinition",
+        },
+    },
+    {
+        "context": "Editor",
+        "unbind": {
+            "f12": "editor::GoToDefinition",
+        },
+    },
+    {
+        "context": "BufferSearchBar",
+        "unbind": {
+            "ctrl-h": "search::ToggleReplace",
+        },
+    },
+    {
+        "context": "ProjectSearchBar",
+        "unbind": {
+            "ctrl-shift-h": "search::ToggleReplace",
+        },
+    },
+    {
+        "context": "ProjectSearchView",
+        "unbind": {
+            "ctrl-shift-h": "search::ToggleReplace",
+        },
+    },
+    {
+        "context": "Pane",
+        "unbind": {
+            "ctrl-alt-shift-h": "search::ToggleReplace",
+        },
+    },
+    {
+        "context": "Workspace",
+        "unbind": {
+            "ctrl-shift-r": [
+                "task::Rerun",
+                {
+                    "reevaluate_context": false,
+                },
+            ],
+        },
+    },
+    {
+        "context": "Editor && mode == full",
+        "unbind": {
+            "ctrl-shift-o": "outline::Toggle",
+        },
+    },
+    {
+        "bindings": {
+            "ctrl-t": "outline::Toggle",
+        },
+    },
+    {
+        "context": "Workspace",
+        "bindings": {
+            "ctrl-alt-t": "project_symbols::Toggle",
+        },
+    },
+    {
+        "context": "Workspace",
+        "unbind": {
+            "ctrl-t": "project_symbols::Toggle",
+        },
+    },
+    {
+        "context": "Workspace",
+        "unbind": {
+            "ctrl-`": "terminal_panel::Toggle",
+        },
+    },
+    {
+        "context": "Terminal",
+        "unbind": {
+            "alt-t": "terminal::RerunTask",
+        },
+    },
+    {
+        "context": "Workspace",
+        "unbind": {
+            "ctrl-shift-g": "git_panel::ToggleFocus",
+        },
+    },
+    {
+        "context": "Workspace",
+        "unbind": {
+            "ctrl-shift-d": "debug_panel::ToggleFocus",
+        },
+    },
+    {
+        "context": "Workspace",
+        "bindings": {
+            "alt-r": [
+                "projects::OpenRecent",
+                {
+                    "create_new_window": false,
+                },
+            ],
+        },
+    },
+    {
+        "context": "Workspace",
+        "unbind": {
+            "ctrl-r": [
+                "projects::OpenRecent",
+                {
+                    "create_new_window": false,
+                },
+            ],
+        },
+    },
+    {
+        "context": "Editor",
+        "unbind": {
+            "alt-shift-down": [
+                "editor::AddSelectionBelow",
+                {
+                    "skip_soft_wrap": true,
+                },
+            ],
+        },
+    },
+    {
+        "bindings": {
+            "alt-shift-down": [
+                "editor::AddSelectionBelow",
+                {
+                    "skip_soft_wrap": true,
+                },
+            ],
+        },
+    },
+    {
+        "context": "Workspace",
+        "unbind": {
+            "ctrl-shift-b": "outline_panel::ToggleFocus",
+        },
+    },
+    {
+        "bindings": {
+            "ctrl-super-o": "outline_panel::Toggle",
+        },
+    },
+    {
+        "bindings": {
+            "ctrl-super-g": "git_panel::Toggle",
+        },
+    },
+    {
+        "bindings": {
+            "alt-d": "debug_panel::Toggle",
+        },
+    },
+    {
+        "context": "Workspace",
+        "unbind": {
+            "ctrl-shift-e": "project_panel::ToggleFocus",
+        },
+    },
+    {
+        "context": "AgentPanel",
+        "unbind": {
+            "ctrl-shift-e": "project_panel::ToggleFocus",
+        },
+    },
+    {
+        "bindings": {
+            "ctrl-super-e": "project_panel::Toggle",
+        },
+    },
+    {
+        "bindings": {
+            "alt-t": "terminal_panel::Toggle",
+        },
+    },
+    {
+        "context": "Editor && mode == full",
+        "unbind": {
+            "ctrl-alt-shift-backspace": "editor::GoToNextChange",
+        },
+    },
+    {
+        "context": "Editor && mode == full",
+        "unbind": {
+            "ctrl-shift-backspace": "editor::GoToPreviousChange",
+        },
+    },
+    {
+        "context": "Pane",
+        "bindings": {
+            "ctrl-super-t": [
+                "pane::CloseOtherItems",
+                {
+                    "close_pinned": false,
+                },
+            ],
+        },
+    },
+    {
+        "context": "Pane",
+        "unbind": {
+            "ctrl-alt-t": [
+                "pane::CloseOtherItems",
+                {
+                    "close_pinned": false,
+                },
+            ],
+        },
+    },
+    {
+        "context": "Editor && extension == md",
+        "bindings": {
+            "ctrl-shift-v": "markdown::OpenPreviewToTheSide",
+        },
+    },
+    {
+        "context": "Editor && extension == md",
+        "unbind": {
+            "ctrl-k v": "markdown::OpenPreviewToTheSide",
+        },
+    },
+    {
+        "context": "Editor && extension == md",
+        "bindings": {
+            "ctrl-alt-v": "markdown::OpenPreview",
+        },
+    },
+    {
+        "context": "Editor && extension == md",
+        "unbind": {
+            "ctrl-shift-v": "markdown::OpenPreview",
+        },
+    },
+    {
+        "context": "Workspace",
+        "bindings": {
+            "ctrl-9": ["workspace::ActivatePane", 8],
+        },
+    },
+    {
+        "context": "Workspace",
+        "unbind": {
+            "alt-9": ["workspace::ActivatePane", 8],
+        },
+    },
+    {
+        "context": "Workspace",
+        "bindings": {
+            "ctrl-8": ["workspace::ActivatePane", 7],
+        },
+    },
+    {
+        "context": "Workspace",
+        "unbind": {
+            "alt-8": ["workspace::ActivatePane", 7],
+        },
+    },
+    {
+        "context": "Workspace",
+        "bindings": {
+            "ctrl-7": ["workspace::ActivatePane", 6],
+        },
+    },
+    {
+        "context": "Workspace",
+        "unbind": {
+            "alt-7": ["workspace::ActivatePane", 6],
+        },
+    },
+    {
+        "context": "Workspace",
+        "bindings": {
+            "ctrl-6": ["workspace::ActivatePane", 5],
+        },
+    },
+    {
+        "context": "Workspace",
+        "unbind": {
+            "alt-6": ["workspace::ActivatePane", 5],
+        },
+    },
+    {
+        "context": "Workspace",
+        "bindings": {
+            "ctrl-5": ["workspace::ActivatePane", 4],
+        },
+    },
+    {
+        "context": "Workspace",
+        "unbind": {
+            "alt-5": ["workspace::ActivatePane", 4],
+        },
+    },
+    {
+        "context": "Workspace",
+        "bindings": {
+            "ctrl-4": ["workspace::ActivatePane", 3],
+        },
+    },
+    {
+        "context": "Workspace",
+        "unbind": {
+            "alt-4": ["workspace::ActivatePane", 3],
+        },
+    },
+    {
+        "context": "Workspace",
+        "bindings": {
+            "ctrl-3": ["workspace::ActivatePane", 2],
+        },
+    },
+    {
+        "context": "Workspace",
+        "unbind": {
+            "alt-3": ["workspace::ActivatePane", 2],
+        },
+    },
+    {
+        "context": "Workspace",
+        "bindings": {
+            "ctrl-2": ["workspace::ActivatePane", 1],
+        },
+    },
+    {
+        "context": "Workspace",
+        "unbind": {
+            "alt-2": ["workspace::ActivatePane", 1],
+        },
+    },
+    {
+        "context": "Workspace",
+        "bindings": {
+            "ctrl-1": ["workspace::ActivatePane", 0],
+        },
+    },
+    {
+        "context": "Workspace",
+        "unbind": {
+            "alt-1": ["workspace::ActivatePane", 0],
+        },
+    },
+    {
+        "bindings": {
+            "ctrl-super-up": [
+                "editor::MoveUpByLines",
+                {
+                    "lines": 10,
+                },
+            ],
+        },
+    },
+    {
+        "bindings": {
+            "ctrl-super-down": [
+                "editor::MoveDownByLines",
+                {
+                    "lines": 10,
+                },
+            ],
+        },
+    },
+    {
+        "context": "Workspace",
+        "bindings": {
+            "ctrl-super-x": "zed::Extensions",
+        },
+    },
+    {
+        "context": "Workspace",
+        "unbind": {
+            "ctrl-shift-x": "zed::Extensions",
+        },
+    },
+    {
+        "context": "Editor",
+        "bindings": {
+            "ctrl-h": "editor::Hover",
+        },
+    },
+    {
+        "context": "Editor",
+        "unbind": {
+            "ctrl-k ctrl-i": "editor::Hover",
+        },
+    },
+    {
+        "context": "Editor",
+        "bindings": {
+            "ctrl-super-a": "editor::MoveToEnclosingBracket",
+        },
+    },
+    {
+        "context": "Editor",
+        "unbind": {
+            "ctrl-m": "editor::MoveToEnclosingBracket",
+        },
+    },
+    {
+        "bindings": {
+            "ctrl-super-shift-right": "editor::SelectToEndOfLargerSyntaxNode",
+        },
+    },
+    {
+        "bindings": {
+            "ctrl-super-right": "editor::MoveToEndOfLargerSyntaxNode",
+        },
+    },
+    {
+        "bindings": {
+            "ctrl-super-left": "editor::MoveToStartOfLargerSyntaxNode",
+        },
+    },
+    {
+        "bindings": {
+            "ctrl-super-shift-left": "editor::SelectToStartOfLargerSyntaxNode",
+        },
+    },
+    {
+        "context": "BufferSearchBar && in_replace > Editor",
+        "bindings": {
+            "ctrl-alt-enter": "search::ReplaceAll",
+        },
+    },
+    {
+        "context": "BufferSearchBar && in_replace > Editor",
+        "unbind": {
+            "ctrl-enter": "search::ReplaceAll",
+        },
+    },
+    {
+        "context": "Workspace",
+        "bindings": {
+            "alt-p": "diagnostics::Deploy",
+        },
+    },
+    {
+        "context": "Workspace",
+        "unbind": {
+            "ctrl-shift-m": "diagnostics::Deploy",
+        },
+    },
+    {
+        "bindings": {
+            "ctrl-super-shift-up": [
+                "editor::SelectUpByLines",
+                {
+                    "lines": 10,
+                },
+            ],
+        },
+    },
+    {
+        "bindings": {
+            "ctrl-super-shift-down": [
+                "editor::SelectDownByLines",
+                {
+                    "lines": 10,
+                },
+            ],
+        },
+    },
+    {
+        "bindings": {
+            "ctrl-alt-left": [
+                "workspace::MoveItemToPaneInDirection",
+                {
+                    "direction": "left",
+                },
+            ],
+        },
+    },
+    {
+        "bindings": {
+            "ctrl-alt-right": [
+                "workspace::MoveItemToPaneInDirection",
+                {
+                    "direction": "right",
+                },
+            ],
+        },
+    },
+    {
+        "bindings": {
+            "ctrl-r": "search::ToggleReplace",
+        },
+    },
+    {
+        "context": "Editor",
+        "bindings": {
+            "ctrl-super-k": "editor::DeleteLine",
+        },
+    },
+    {
+        "context": "Editor",
+        "unbind": {
+            "ctrl-shift-k": "editor::DeleteLine",
+        },
+    },
+    {
+        "context": "Editor",
+        "bindings": {
+            "alt-q": "editor::SelectLargerSyntaxNode",
+        },
+    },
+    {
+        "context": "Editor",
+        "unbind": {
+            "alt-shift-right": "editor::SelectLargerSyntaxNode",
+        },
+    },
+    {
+        "context": "Editor",
+        "bindings": {
+            "alt-w": "editor::SelectSmallerSyntaxNode",
+        },
+    },
+    {
+        "context": "Editor",
+        "unbind": {
+            "alt-shift-left": "editor::SelectSmallerSyntaxNode",
+        },
+    },
+    {
+        "context": "Terminal",
+        "bindings": {
+            "ctrl-super-f": ["terminal::SendText", "_fzf_search_directory"],
+        },
+    },
 ]
