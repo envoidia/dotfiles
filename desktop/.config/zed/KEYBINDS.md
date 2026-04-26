@@ -32,8 +32,8 @@ Ctrl-A | Select All
 -|-
 BkSp | Delete left
 Del | Delete right
-Ctrl-Shift-BkSp | Delete all left
-Ctrl-Shift-Del | Delete all right
+Hypr-BkSp | Delete all left
+Hypr-Del | Delete all right
 
 | Lines || 
 -|-

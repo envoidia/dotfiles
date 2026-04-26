@@ -126,12 +126,12 @@
   },
   {
     "bindings": {
-      "ctrl-shift-delete": "editor::DeleteToEndOfLine",
+      "ctrl-super-delete": "editor::DeleteToEndOfLine",
     },
   },
   {
     "bindings": {
-      "ctrl-shift-backspace": "editor::DeleteToBeginningOfLine",
+      "ctrl-super-backspace": "editor::DeleteToBeginningOfLine",
     },
   },
   {
