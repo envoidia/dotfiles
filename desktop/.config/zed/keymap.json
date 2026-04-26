@@ -706,4 +706,10 @@
       "alt-shift-left": "editor::SelectSmallerSyntaxNode",
     },
   },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "ctrl-super-f": ["terminal::SendText", "_fzf_search_directory"],
+    },
+  },
 ]
