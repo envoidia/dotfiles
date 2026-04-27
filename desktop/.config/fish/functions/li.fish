@@ -11,7 +11,7 @@ function li -w "timg --upscale --frames=1 --title" -d "Show a grid of image prev
     if not set -q _flag_c
         set _flag_c 8
     end
-
+    
     set -l glob
     set -l files
 

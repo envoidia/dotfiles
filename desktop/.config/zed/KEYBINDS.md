@@ -12,7 +12,7 @@ Hypr-Up/Down | Move up/down 10 lines
 Hypr-Left/Right | To start/end of larger syntax node
 Ctrl-G | To line
 Ctrl-U | Cursor undo
-Ctrl-Shift-U | Cursor redo
+Hypr-U | Cursor redo
 Ctrl-Home/End | To file home/end
 F7 | To next match of highlight
 Shift-F7 | To previous match of highlight
@@ -53,22 +53,23 @@ Ctrl-PgUp/PgDown | To prev/next tab
 Ctrl-Shift-PgUp/PgDown | Move tab left/right
 Alt-{Num} | To {Num} tab
 Ctrl-N | New file
-Ctrl-P | Open file in project
+Hypr-P | Open file in project
 Ctrl-O | Open file
 Ctrl-W | Close Tab
 
-| Groups || 
+| Panels || 
 -|-
-Ctrl-\  | Move tab to right group
-Ctrl-Alt-\  | Move tab to left group
-Ctrl-Shift-\  | Split tab to right group
-Ctrl-Shift-Alt-\  | Split tab to left group
-Ctrl-{Num} | To {Num} group
-Ctrl-Alt-Left/Right | Move tab to prev/next group
+Ctrl-\  | Move tab to right panel
+Ctrl-Alt-\  | Move tab to left panel
+Hypr-\  | Split tab to right panel
+Hypr-Alt-\  | Split tab to left panel
+Ctrl-{Num} | To {Num} panel
+Ctrl-Alt-Left/Right | Move tab to prev/next panel
+Hypr-T | Close other tabs in panel
 
 | Multicursor || 
 -|-
-Ctrl-Shift-Up/Down | Create cursor up/down
+Alt-Shift-Up/Down | Create cursor up/down
 Alt-Click | Create cursor there
 Esc | Remove extra cursors
 
@@ -76,7 +77,7 @@ Esc | Remove extra cursors
 | Navigation || 
 -|-
 F1 | To definition/uses
-Ctrl-T | To symbol
+Hypr-T | To symbol
 Ctrl-Shift-T | To symbol in workspace
 Ctrl-. | Context actions
 Ctrl-H | Show hover
@@ -88,8 +89,8 @@ Alt-Enter | Open file from references/search view
 
 | Folding || 
 -|-
-Ctrl-Shift-[ | Fold
-Ctrl-Shift-] | Unfold
+Hypr-[ | Fold
+Hypr-] | Unfold
 Ctrl-K Ctrl-0 | Fold all
 Ctrl-K Ctrl-J | Unfold all
 Ctrl-K Ctrl-{Num} | Fold level {Num}
@@ -99,7 +100,7 @@ Ctrl-K Ctrl-{Num} | Fold level {Num}
 F5 | Run and debug
 Ctrl-F5 | Run without debugging
 Shift-F5 | Stop debugging
-Ctrl-Shift-F5 | Restart debugging
+Hypr-F5 | Restart debugging
 F6 | Pause
 Alt-B | Toggle breakpoint
 Shift-F9 | Toggle log breakpoint
@@ -125,7 +126,7 @@ Alt-T | Terminal
 -|-
 Ctrl-Shift-F/R | Global find/replace
 Ctrl-F/R | Find/replace
-Ctrl-Alt-Enter | Replace all
+Hypr-Enter | Replace all
 Alt-Enter | Open results in search editor
 Ctrl-S | Search editor apply changes
 F3 | Find next
@@ -136,11 +137,11 @@ Shift-F3 | Find previous
 Ctrl-S | Save
 Ctrl-Z | Undo
 Ctrl-Y | Redo
-Ctrl-Shift-P | Command palette
+Ctrl-P | Command palette
 Ctrl-, | Settings
 Ctrl-K Ctrl-S | Keybinds
 Ctrl-Alt-V | Preview markdown
 Ctrl-Shift-V | Preview markdown to the side
-Ctrl-Shift-N | New window
+Hypr-N | New window
 Ctrl-K Ctrl-O | Open folder
 Alt-R | Open recent project

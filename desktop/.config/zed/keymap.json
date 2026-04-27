@@ -147,7 +147,7 @@
     {
         "context": "Terminal",
         "bindings": {
-            "ctrl-|": "pane::SplitRight",
+            "ctrl-super-\\": "pane::SplitRight",
         },
     },
     {
@@ -234,13 +234,13 @@
     },
     {
         "bindings": {
-            "ctrl-t": "outline::Toggle",
+            "ctrl-super-t": "outline::Toggle",
         },
     },
     {
         "context": "Workspace",
         "bindings": {
-            "ctrl-alt-t": "project_symbols::Toggle",
+            "ctrl-t": "project_symbols::Toggle",
         },
     },
     {
@@ -374,7 +374,7 @@
     {
         "context": "Pane",
         "bindings": {
-            "ctrl-super-t": [
+            "ctrl-alt-t": [
                 "pane::CloseOtherItems",
                 {
                     "close_pinned": false,
@@ -604,7 +604,7 @@
     {
         "context": "BufferSearchBar && in_replace > Editor",
         "bindings": {
-            "ctrl-alt-enter": "search::ReplaceAll",
+            "ctrl-super-enter": "search::ReplaceAll",
         },
     },
     {
@@ -722,6 +722,129 @@
         "context": "Editor",
         "unbind": {
             "f9": "editor::ToggleBreakpoint",
+        },
+    },
+    {
+        "context": "Workspace",
+        "bindings": {
+            "ctrl-p": "command_palette::Toggle",
+        },
+    },
+    {
+        "context": "Workspace",
+        "unbind": {
+            "ctrl-shift-p": "command_palette::Toggle",
+        },
+    },
+    {
+        "context": "Editor",
+        "bindings": {
+            "ctrl-super-u": "editor::RedoSelection",
+        },
+    },
+    {
+        "context": "Editor",
+        "unbind": {
+            "ctrl-shift-u": "editor::RedoSelection",
+        },
+    },
+    {
+        "context": "Editor",
+        "bindings": {
+            "ctrl-super-[": "editor::Fold",
+        },
+    },
+    {
+        "context": "Editor",
+        "unbind": {
+            "ctrl-{": "editor::Fold",
+        },
+    },
+    {
+        "context": "Editor",
+        "bindings": {
+            "ctrl-super-]": "editor::UnfoldLines",
+        },
+    },
+    {
+        "context": "Editor",
+        "unbind": {
+            "ctrl-}": "editor::UnfoldLines",
+        },
+    },
+    {
+        "bindings": {
+            "ctrl-super-f5": "debugger::RerunSession",
+        },
+    },
+    {
+        "unbind": {
+            "ctrl-shift-f5": "debugger::RerunSession",
+        },
+    },
+    {
+        "context": "Workspace",
+        "bindings": {
+            "ctrl-super-n": "workspace::NewWindow",
+        },
+    },
+    {
+        "context": "Workspace",
+        "unbind": {
+            "ctrl-shift-n": "workspace::NewWindow",
+        },
+    },
+    {
+        "context": "ProjectSearchBar && in_replace > Editor",
+        "bindings": {
+            "ctrl-super-enter": "search::ReplaceAll",
+        },
+    },
+    {
+        "context": "ProjectSearchBar && in_replace > Editor",
+        "unbind": {
+            "ctrl-alt-enter": "search::ReplaceAll",
+        },
+    },
+    {
+        "bindings": {
+            "ctrl-shift-t": "project_symbols::Toggle",
+        },
+    },
+    {
+        "context": "FileFinder || FileFinder > Picker > Editor",
+        "unbind": {
+            "ctrl-p": "file_finder::Toggle",
+        },
+    },
+    {
+        "context": "FileFinder || FileFinder > Picker > Editor",
+        "unbind": {
+            "ctrl-p": "file_finder::Toggle",
+        },
+    },
+    {
+        "context": "FileFinder || FileFinder > Picker > Editor",
+        "bindings": {
+            "ctrl-super-p": "file_finder::Toggle",
+        },
+    },
+    {
+        "context": "FileFinder || FileFinder > Picker > Editor",
+        "unbind": {
+            "ctrl-p": "file_finder::Toggle",
+        },
+    },
+    {
+        "context": "Workspace",
+        "bindings": {
+            "ctrl-super-p": "file_finder::Toggle",
+        },
+    },
+    {
+        "context": "Workspace",
+        "unbind": {
+            "ctrl-p": "file_finder::Toggle",
         },
     },
 ]
