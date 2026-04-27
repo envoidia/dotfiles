@@ -7,37 +7,25 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-    "wrap_guides": [120],
-    "preferred_line_length": 120,
-    "colorize_brackets": true,
-    "git": {
-        "inline_blame": {
-            "enabled": false,
-        },
-    },
+    // basic behavior
+    "use_system_prompts": false,
+    "use_system_path_prompts": false,
+    "cli_default_open_behavior": "existing_window",
+
     "terminal": {
         "cursor_shape": "bar",
     },
+
     "autosave": {
         "after_delay": {
             "milliseconds": 1000,
         },
     },
-    "semantic_tokens": "combined",
-    "cli_default_open_behavior": "existing_window",
-    "inlay_hints": {
-        "show_background": true,
-        "enabled": true,
-    },
-    "diagnostics": {
-        "inline": {
-            "enabled": true,
-        },
-    },
+
     "minimap": {
-        "display_in": "active_editor",
         "show": "never",
     },
+
     "project_panel": {
         "dock": "left",
     },
@@ -50,19 +38,86 @@
     "collaboration_panel": {
         "dock": "left",
     },
+
     "disable_ai": true,
-    "ui_font_size": 16,
-    "buffer_font_size": 15,
+
+    // formatting
+    "prettier": {
+        "parser": "",
+    },
+
+    "tab_size": 4,
+    "wrap_guides": [120],
+    "preferred_line_length": 120,
+
+    // appearance
+    "colorize_brackets": true,
+    "lsp_document_colors": "inlay",
+
     "theme": {
         "mode": "dark",
         "light": "One Light",
-        "dark": "Ayu Mirage",
+        "dark": "Selene Abyss",
+    },
+
+    // git
+    "git": {
+        "inline_blame": {
+            "enabled": false,
+        },
+    },
+
+    // code
+    "semantic_tokens": "combined",
+
+    "inlay_hints": {
+        "show_background": true,
+        "enabled": true,
+    },
+
+    "diagnostics": {
+        "inline": {
+            "enabled": true,
+        },
+    },
+
+    // lsp
+    "global_lsp_settings": {
+        "semantic_token_rules": [
+            {
+                "token_type": "operatorOverloaded",
+                "style": ["function"],
+            },
+            {
+                "token_type": "parameter",
+                "style": ["emphasis"],
+            },
+            {
+                "token_type": "field",
+                "style": ["property"],
+            },
+            {
+                "token_type": "property",
+                "style": ["operator"],
+            },
+            {
+                "token_type": "constant",
+                "style": ["constant"],
+            },
+            {
+                "token_type": "macro",
+                "style": ["variable.special"],
+            },
+            {
+                "token_type": "event",
+                "style": ["string.special"],
+            },
+        ],
     },
 
     "lsp": {
         "roslyn": {
             "settings": {
-                // Default values are shown below, along with alternative options where applicable.
                 "csharp|symbol_search": {
                     "dotnet_search_reference_assemblies": true,
                 },
@@ -133,14 +188,5 @@
                 },
             },
         },
-    },
-    "global_lsp_settings": {
-        "semantic_token_rules": [
-            {
-                // Use function color for operator overloads
-                "token_type": "operatorOverloaded",
-                "style": ["function"],
-            },
-        ],
     },
 }
