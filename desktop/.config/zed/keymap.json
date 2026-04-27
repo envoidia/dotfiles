@@ -712,4 +712,16 @@
             "ctrl-super-f": ["terminal::SendText", "_fzf_search_directory"],
         },
     },
+    {
+        "context": "Editor",
+        "bindings": {
+            "alt-b": "editor::ToggleBreakpoint",
+        },
+    },
+    {
+        "context": "Editor",
+        "unbind": {
+            "f9": "editor::ToggleBreakpoint",
+        },
+    },
 ]

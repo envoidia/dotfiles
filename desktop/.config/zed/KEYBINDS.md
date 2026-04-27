@@ -101,7 +101,7 @@ Ctrl-F5 | Run without debugging
 Shift-F5 | Stop debugging
 Ctrl-Shift-F5 | Restart debugging
 F6 | Pause
-F9 | Toggle breakpoint
+Alt-B | Toggle breakpoint
 Shift-F9 | Toggle log breakpoint
 Shift-F11 | Step out
 Ctrl-F11 | Step into
