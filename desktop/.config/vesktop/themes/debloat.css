@@ -92,6 +92,9 @@ div[role="button"][aria-label="Mark Unread"],
 /* Boost tab in server */
 .basicChannelRowLink__2ea32,
 
+/* Gift and gif buttons in profile message bar  */
+.icon-only_a22cb0,
+
 /* Commonly used divider to create whitespace around elements this deletes */
 div[style="height: 12px;"] {
     display: none !important;
