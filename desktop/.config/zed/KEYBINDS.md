@@ -140,6 +140,7 @@ Ctrl-Y | Redo
 Ctrl-P | Command palette
 Ctrl-, | Settings
 Ctrl-K Ctrl-S | Keybinds
+Ctrl-K Ctrl-M | Select language
 Ctrl-Alt-V | Preview markdown
 Ctrl-Shift-V | Preview markdown to the side
 Hypr-N | New window

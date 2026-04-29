@@ -707,12 +707,6 @@
         },
     },
     {
-        "context": "Terminal",
-        "bindings": {
-            "ctrl-super-f": ["terminal::SendText", "_fzf_search_directory"],
-        },
-    },
-    {
         "context": "Editor",
         "bindings": {
             "alt-b": "editor::ToggleBreakpoint",
@@ -845,6 +839,19 @@
         "context": "Workspace",
         "unbind": {
             "ctrl-p": "file_finder::Toggle",
+        },
+    },
+    // workaround for terminal keystroke bug
+    {
+        "context": "Terminal",
+        "bindings": {
+            // fzf.fish
+            "ctrl-super-f": ["terminal::SendText", "\u001b[102;13u"],
+            "ctrl-super-l": ["terminal::SendText", "\u001b[108;13u"],
+            "ctrl-super-s": ["terminal::SendText", "\u001b[115;13u"],
+            "ctrl-super-h": ["terminal::SendText", "\u001b[104;13u"],
+            "ctrl-super-p": ["terminal::SendText", "\u001b[112;13u"],
+            "ctrl-super-v": ["terminal::SendText", "\u001b[118;13u"],
         },
     },
 ]
