@@ -802,7 +802,7 @@
     },
     {
         "bindings": {
-            "ctrl-shift-t": "project_symbols::Toggle",
+            "ctrl-t": "project_symbols::Toggle",
         },
     },
     {
@@ -839,6 +839,37 @@
         "context": "Workspace",
         "unbind": {
             "ctrl-p": "file_finder::Toggle",
+        },
+    },
+    {
+        "context": "Workspace",
+        "unbind": {
+            "f10": ["app_menu::OpenApplicationMenu", "Zed"],
+        },
+    },
+    {
+        "bindings": {
+            "f9": "editor::ToggleBookmark",
+        },
+    },
+    {
+        "bindings": {
+            "f10": "editor::GoToNextBookmark",
+        },
+    },
+    {
+        "bindings": {
+            "shift-f10": "editor::GoToPreviousBookmark",
+        },
+    },
+    {
+        "bindings": {
+            "alt-f9": "workspace::ClearBookmarks",
+        },
+    },
+    {
+        "bindings": {
+            "shift-f9": "editor::ViewBookmarks",
         },
     },
     // workaround for terminal keystroke bug

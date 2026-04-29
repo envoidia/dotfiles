@@ -73,12 +73,20 @@ Alt-Shift-Up/Down | Create cursor up/down
 Alt-Click | Create cursor there
 Esc | Remove extra cursors
 
+| Bookmarks ||
+-|-
+F9 | Toggle bookmark
+Shift-F9 | View bookmarks
+Alt-F9 | Clear bookmarks
+F10 | To next bookmark
+Shift-F10 | To previous bookmark
+
 # Code
 | Navigation || 
 -|-
 F1 | To definition/uses
 Hypr-T | To symbol
-Ctrl-Shift-T | To symbol in workspace
+Ctrl-T | To symbol in workspace
 Ctrl-. | Context actions
 Ctrl-H | Show hover
 F2 | Rename symbol
