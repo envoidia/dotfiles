@@ -36,6 +36,7 @@
         "dock": "left",
     },
     "collaboration_panel": {
+        "button": false,
         "dock": "left",
     },
 
@@ -58,6 +59,15 @@
         "mode": "dark",
         "light": "One Light",
         "dark": "Selene Abyss",
+    },
+
+    "buffer_font_features": {
+        // enable <<=, >>=, ||=, and |=
+        "ss01": true,
+        // non-slanted <= and >=
+        "cv08": true,
+        // enable |> and <|
+        "cv11": true,
     },
 
     // git
