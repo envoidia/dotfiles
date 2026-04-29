@@ -12,10 +12,6 @@
     "use_system_path_prompts": false,
     "cli_default_open_behavior": "existing_window",
 
-    "terminal": {
-        "cursor_shape": "bar",
-    },
-
     "autosave": {
         "after_delay": {
             "milliseconds": 1000,
@@ -68,6 +64,16 @@
         "cv08": true,
         // enable |> and <|
         "cv11": true,
+    },
+
+    "terminal": {
+        "cursor_shape": "bar",
+
+        "font_features": {
+            "ss01": true,
+            "cv08": true,
+            "cv11": true,
+        },
     },
 
     // git

@@ -198,11 +198,6 @@
 code,
 pre,
 .codeLine_ada32f {
-    /*
-        ss01: <<=, >>=, ||=, and |=
-        cv08: non-slanted <= and >=
-        cv11: |> and <|
-    */
     font-feature-settings:
         "ss01" on,
         "cv08" on,
