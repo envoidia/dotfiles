@@ -5,13 +5,13 @@ function cbc -w wl-copy -d "Copies text and files"
         return
     end
 
-    argparse 'h/help' 'l/link' 'n/nolink' -- $argv
+    argparse h/help l/link n/nolink -- $argv
 
     if set -q _flag_h
-        echo -e "usage: cbc [options] <file/dir>\nOptions:\n    -h, --help: Print this help message and exit\n    -l, --link: Copy file as link/URI\n    -n, --nolink: Never copy file as link. Without this option, audio, videos, WEBPs, and GIFs will copy as links"
+        echo -e "usage: cbc [options] <file/dir>\nOptions:\n    -h, --help: Print this help message and exit\n    -l, --link: Copy file as link/URI\n    -n, --nolink: Never copy file as link. Without this option, audio, videos, WEBPs, and GIFs will copy as links, because many programs don't let you paste those as raw data"
         return
     end
-    
+
     set input $argv[1]
 
     # Copy file
@@ -23,8 +23,7 @@ function cbc -w wl-copy -d "Copies text and files"
         if not set -q _flag_n
             # Separate if statement due to operator precedence
             # By default, use links for filetypes that can't be pasted into Electron apps as raw data
-            if set -q _flag_l || test $mime = image/gif || test $mime = image/webp || \
-                test $mime_prefix = video || test $mime_prefix = audio
+            if set -q _flag_l || test $mime = image/gif || test $mime = image/webp || test $mime_prefix = video || test $mime_prefix = audio
                 wl-copy -t text/uri-list file://$(path resolve $input)
                 return
             end
@@ -32,12 +31,12 @@ function cbc -w wl-copy -d "Copies text and files"
 
         # Some apps don't like pasting JPEGs, but pretending it's a PNG fixes it
         if test $mime = image/jpeg
-            wl-copy --type image/png < $input
+            wl-copy --type image/png <$input
             return
         end
-        
+
         # Copy file normally
-        wl-copy < $input
+        wl-copy <$input
         return
     end
 
