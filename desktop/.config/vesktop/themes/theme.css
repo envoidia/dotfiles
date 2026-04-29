@@ -1,10 +1,10 @@
 /**
  * @name envoidia's ClearVision V7 for Vencord
- * @author ClearVision Team
- * @version 7.0.0
- * @description envoidia's version of ClearVision. Ensure you have the fonts Koruri and Lilex installed
- * @source https://github.com/ClearVision/ClearVision-v7
- * @website https://clearvision.github.io
+ * @author ClearVision Team && envoidia
+ * @version 28/04/2027
+ * @description envoidia's version of ClearVision. Needed fonts: Koruri, Lilex
+ * @source https://github.com/envoidia/dotfiles
+ * @website https://envoidia.neocities.org
  * @invite dHaSxn3
  */
 
@@ -13,7 +13,6 @@
 /* IMPORT CSS */
 @import url("https://clearvision.github.io/ClearVision-v7/main.css");
 @import url("https://clearvision.github.io/ClearVision-v7/vencord.css");
-@import url("https://clearvision.github.io/Addons/gradients.css");
 
 /* SETTINGS */
 :root {
