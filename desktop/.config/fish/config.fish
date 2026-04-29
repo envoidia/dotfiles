@@ -27,13 +27,20 @@ complete -c wl-copy -F
 set -l hypr ctrl-super
 set fzf_fd_opts -iH
 fzf_configure_bindings --directory=$hypr-f --git_log=$hypr-l --git_status=$hypr-s \
-    --history=$hypr-h --processes=$hypr-p --variables=$hypr-r
+    --history=$hypr-h --processes=$hypr-p --variables=$hypr-v
 
 # dotnet
 set PATH $PATH:/usr/share/dotnet:/home/envoidia/.dotnet/tools
 set DOTNET_ROOT /usr/share/dotnet
 
-# colorize manpages
+### Colors
+# fd
+set -x LS_COLORS "di=1;34:ex=1;33"
+
+# fzf
+set -x FZF_DEFAULT_OPTS '--height 60% --layout=reverse --border --color=fg:#CCCAC2,fg+:#CCCAC2,bg:#000000,bg+:#000000,hl:#BB94DE,hl+:#BB94DE,info:#4AB0E7,marker:#32BB99,prompt:#E9AEE4,spinner:#BB94DE,pointer:#BB94DE,header:#B5C0FF,border:#CCCAC2,label:#CCCAC2,query:#CCCAC2'
+
+# manpages
 set -x LESS_TERMCAP_mb $(printf "\e[1;95m")
 set -x LESS_TERMCAP_md $(printf "\e[1;95m")
 set -x LESS_TERMCAP_us $(printf "\e[4;1;94m")
