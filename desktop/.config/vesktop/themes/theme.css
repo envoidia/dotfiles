@@ -236,6 +236,7 @@
 /* lilex features */
 code,
 pre,
+.inlineCode_ada32f,
 .codeLine_ada32f {
     font-feature-settings:
         "ss01" on,
