@@ -9,11 +9,13 @@ alias du=dust
 alias cat=bat
 alias mv="mv -i"
 alias cp="cp -i"
+
 # editors
 alias vim=nvim
 alias v=vim
 alias zed=zeditor
 alias z=zed
+
 # other
 alias drd="dragon-drop --and-exit"
 alias ic="kitten icat"
