@@ -8,3 +8,4 @@
 - HTML
 - [NetCoreDbg](https://github.com/qwadrox/zed-netcoredbg)
 - TOML
+- XML

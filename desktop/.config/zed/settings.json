@@ -19,10 +19,6 @@
         },
     },
 
-    "minimap": {
-        "show": "never",
-    },
-
     "project_panel": {
         "dock": "left",
     },
