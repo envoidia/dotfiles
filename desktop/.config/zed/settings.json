@@ -8,6 +8,7 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
     // basic behavior
+    "diff_view_style": "split",
     "use_system_prompts": false,
     "use_system_path_prompts": false,
     "cli_default_open_behavior": "existing_window",
@@ -84,6 +85,11 @@
     },
 
     // code
+    "file_types": {
+        "XML": ["csproj", "slnx", "resx"],
+        "TOML": ["conf"],
+    },
+
     "semantic_tokens": "combined",
 
     "inlay_hints": {
