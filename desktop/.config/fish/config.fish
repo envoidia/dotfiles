@@ -38,7 +38,7 @@ set DOTNET_ROOT /usr/share/dotnet
 set -x LS_COLORS "di=1;34:ex=1;33"
 
 # fzf
-set -x FZF_DEFAULT_OPTS '--height 60% --layout=reverse --border --color=fg:#CCCAC2,fg+:#CCCAC2,bg:#000000,bg+:#000000,hl:#BB94DE,hl+:#BB94DE,info:#4AB0E7,marker:#32BB99,prompt:#E9AEE4,spinner:#BB94DE,pointer:#BB94DE,header:#B5C0FF,border:#CCCAC2,label:#CCCAC2,query:#CCCAC2'
+set -x FZF_DEFAULT_OPTS '--height 80% --layout=reverse --border --color=fg:#CCCAC2,fg+:#CCCAC2,bg:#161b29,bg+:#161b29,hl:#BB94DE,hl+:#BB94DE,info:#4AB0E7,marker:#32BB99,prompt:#E9AEE4,spinner:#BB94DE,pointer:#BB94DE,header:#B5C0FF,border:#66C8CC,label:#CCCAC2,query:#CCCAC2'
 
 # manpages
 set -x LESS_TERMCAP_mb $(printf "\e[1;95m")
