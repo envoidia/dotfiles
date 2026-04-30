@@ -28,7 +28,7 @@ rounded_borders = false
 # ===== COLORS =====
 # WARNING: Color options go at ROOT LEVEL (not in [app_launcher])
 # Note: Colors can be overridden in [dmenu] and [cclip] sections for mode-specific styling
-# Formats: Named ("Red", "LightBlue"), Hex ("#ff0000", "#f00"), 
+# Formats: Named ("Red", "LightBlue"), Hex ("#ff0000", "#f00"),
 #          RGB ("rgb(255,0,0)"), 8-bit ("196")
 
 # Border colors for each panel
@@ -37,19 +37,19 @@ apps_border_color = "#a4daff"      # Border color for the apps list panel (middl
 input_border_color = "#a4daff"     # Border color for the input panel (bottom)
 
 # Text Colors (non-highlighted text in each panel)
-main_text_color = "#c0caf5"        # Text color for the main info panel
-apps_text_color = "#c0caf5"        # Text color for the apps list
-input_text_color = "#c0caf5"       # Text color for the input field
+main_text_color = "#b5c0ff"        # Text color for the main info panel
+apps_text_color = "#b5c0ff"        # Text color for the apps list
+input_text_color = "#b5c0ff"       # Text color for the input field
 
 # Pin/Favorite Settings
-pin_color = "rgb(255,165,0)"     # Color for pin icon (default: orange)
+pin_color = "#32bb99"     # Color for pin icon (default: orange)
 pin_icon = "📌"                   # Icon for pinned apps (use Ctrl+Space to pin/unpin)
 
 # Show selected app name in panel titles (instead of "Apps"/"Fsel")
 fancy_mode = true
 
-# Panel title colore
-header_title_color = "#73bed3"
+# Panel title color
+header_title_color = "#66c8cc"
 
 # ===== LAYOUT =====
 
@@ -90,7 +90,7 @@ match_mode = "fuzzy"
 confirm_first_launch = false
 
 # Character depth for prefix matching priority (default: 3)
-# When query length is within this depth, prefix matches (exact, word-start) 
+# When query length is within this depth, prefix matches (exact, word-start)
 # are prioritized over fuzzy matches. Beyond this depth, all matches use fuzzy scoring.
 # Example: With prefix_depth=3, typing "fi" (2 chars) prioritizes prefix matches,
 #          but typing "fire" (4 chars) uses fuzzy matching for all results.
