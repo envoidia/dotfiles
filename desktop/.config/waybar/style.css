@@ -59,7 +59,11 @@
     padding: 0.3rem 0.7rem;
     margin: 5px 0px;
     color: @fg;
-    background-color: @bg-bright;
+    background-color: @bg;
+}
+
+#custom-arch {
+    color: @cyan;
 }
 
 #cpu {
