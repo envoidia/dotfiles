@@ -6,7 +6,16 @@
 
     "modules-center": ["custom/recording"],
 
-    "modules-right": ["clock", "pulseaudio", "battery", "custom/brightness", "cpu", "custom/gpu", "memory"],
+    "modules-right": [
+        "clock",
+        "pulseaudio",
+        "battery",
+        "custom/brightness",
+        "cpu",
+        "custom/cpu-temp",
+        "memory",
+        "custom/gpu",
+    ],
 
     "custom/arch": {
         "format": "󰣇",

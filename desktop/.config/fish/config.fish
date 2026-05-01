@@ -37,19 +37,19 @@ set DOTNET_ROOT /usr/share/dotnet
 
 ### Colors
 # fd
-set LS_COLORS "di=1;34:ex=1;33"
+set -x LS_COLORS "di=1;34:ex=1;33"
 
 # fzf
-set FZF_DEFAULT_OPTS '--height 80% --layout=reverse --border --color=fg:#CCCAC2,fg+:#CCCAC2,bg:#161b29,bg+:#161b29,hl:#BB94DE,hl+:#BB94DE,info:#4AB0E7,marker:#32BB99,prompt:#E9AEE4,spinner:#BB94DE,pointer:#BB94DE,header:#B5C0FF,border:#66C8CC,label:#CCCAC2,query:#CCCAC2'
+set -x FZF_DEFAULT_OPTS '--height 80% --layout=reverse --border --color=fg:#CCCAC2,fg+:#CCCAC2,bg:#161b29,bg+:#161b29,hl:#BB94DE,hl+:#BB94DE,info:#4AB0E7,marker:#32BB99,prompt:#E9AEE4,spinner:#BB94DE,pointer:#BB94DE,header:#B5C0FF,border:#66C8CC,label:#CCCAC2,query:#CCCAC2'
 
 # manpages
-set LESS_TERMCAP_mb $(printf "\e[1;95m")
-set LESS_TERMCAP_md $(printf "\e[1;95m")
-set LESS_TERMCAP_us $(printf "\e[4;1;94m")
-set LESS_TERMCAP_so $(printf "\e[1;38;5;183;48;5;54m")
-set LESS_TERMCAP_me $(printf "\e[0m")
-set LESS_TERMCAP_se $(printf "\e[0m")
-set LESS_TERMCAP_ue $(printf "\e[0m")
-set LESS_TERMCAP_mr $(printf "\e[7m")
-set LESS_TERMCAP_mh $(printf "\e[2m")
-set GROFF_NO_SGR 1
+set -x LESS_TERMCAP_mb $(printf "\e[1;95m")
+set -x LESS_TERMCAP_md $(printf "\e[1;95m")
+set -x LESS_TERMCAP_us $(printf "\e[4;1;94m")
+set -x LESS_TERMCAP_so $(printf "\e[1;38;5;183;48;5;54m")
+set -x LESS_TERMCAP_me $(printf "\e[0m")
+set -x LESS_TERMCAP_se $(printf "\e[0m")
+set -x LESS_TERMCAP_ue $(printf "\e[0m")
+set -x LESS_TERMCAP_mr $(printf "\e[7m")
+set -x LESS_TERMCAP_mh $(printf "\e[2m")
+set -x GROFF_NO_SGR 1
