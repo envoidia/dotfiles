@@ -1,7 +1,7 @@
-@import "/home/envoidia/.config/sys_colors.css";
+@import "/home/envoidia/.config/selene_abyss.css";
 
 * {
-    font-family: 'SF Pro Text', 'Inter', 'Segoe UI, NotoSans Nerd Font', sans-serif;
+    font-family: "SF Pro Text", "Inter", "Segoe UI, NotoSans Nerd Font", sans-serif;
     font-size: 13px;
     min-height: 0;
     padding-right: 0px;
@@ -17,9 +17,9 @@
 
 #window {
     padding: 0.3rem 0.7rem;
-    margin: 5px 0px; 
-    color: @text;
-    background-color: @bg;
+    margin: 5px 0px;
+    color: @cyan;
+    background-color: @bg-bright;
     border-radius: 0;
 }
 
@@ -28,34 +28,42 @@
 }
 
 #workspaces button {
-    color: @text;
+    color: @cyan;
     padding: 0.3rem;
     margin: 5px 0px 5px 0px;
-    background-color: @bg;
+    background-color: @bg-bright;
     border-radius: 0;
     transition: none;
 }
 
 #workspaces button.active {
-    color: white;
-    background-color: @bg-light;
+    color: @fg;
+    background-color: @bg-brighter;
 }
 
 #workspaces button:hover {
-    color: white;
-    background: @bg-light;
-    border-color: @bg-light;
+    color: @fg;
+    background: @bg-brighter;
+    border-color: @bg-brighter;
 }
 
-#custom-arch, #clock, #pulseaudio, #battery, #custom-brightness, #cpu, #custom-cpu-temp, #custom-gpu, #memory {
+#custom-arch,
+#clock,
+#pulseaudio,
+#battery,
+#custom-brighterness,
+#cpu,
+#custom-cpu-temp,
+#custom-gpu,
+#memory {
     padding: 0.3rem 0.7rem;
-    margin: 5px 0px; 
-    color: @text;
-    background-color: @bg;
+    margin: 5px 0px;
+    color: @cyan;
+    background-color: @bg-bright;
 }
 
 #cpu {
-    padding-right: 0.2rem;
+    padding-right: 0.1rem;
     margin-right: 0px;
 }
 
@@ -73,20 +81,28 @@
     margin-right: 20px;
 }
 
-#custom-arch:hover, #clock:hover, #pulseaudio:hover, #battery:hover, #custom-brightness:hover, #cpu:hover,
-    #custom-cpu-temp:hover, #custom-gpu:hover, #memory:hover, #window:hover {
-    color: white;
-    background-color: @bg-light;
+#custom-arch:hover,
+#clock:hover,
+#pulseaudio:hover,
+#battery:hover,
+#custom-brighterness:hover,
+#cpu:hover,
+#custom-cpu-temp:hover,
+#custom-gpu:hover,
+#memory:hover,
+#window:hover {
+    color: @fg;
+    background-color: @bg-brighter;
 }
 
 #custom-recording {
     padding: 0.3rem 0.7rem;
-    margin: 5px 0px; 
-    color: @accent;
-    background-color: @accent-dark;
+    margin: 5px 0px;
+    color: @purple;
+    background-color: @purple-dark;
 }
 
 #custom-recording:hover {
-    color: @accent-light;
-    background-color: @accent;
+    color: @purple-bright;
+    background-color: @purple;
 }
