@@ -37,12 +37,12 @@
 }
 
 #workspaces button.active {
-    color: @fg;
+    color: @cyan;
     background-color: @bg-brighter;
 }
 
 #workspaces button:hover {
-    color: @fg;
+    color: @cyan;
     background: @bg-brighter;
     border-color: @bg-brighter;
 }
@@ -91,7 +91,7 @@
 #custom-gpu:hover,
 #memory:hover,
 #window:hover {
-    color: @fg;
+    color: @cyan;
     background-color: @bg-brighter;
 }
 
