@@ -18,8 +18,8 @@
 #window {
     padding: 0.3rem 0.7rem;
     margin: 5px 0px;
-    color: @cyan;
-    background-color: @bg-bright;
+    color: @fg;
+    background-color: @bg;
     border-radius: 0;
 }
 
@@ -28,10 +28,10 @@
 }
 
 #workspaces button {
-    color: @cyan;
+    color: @fg;
     padding: 0.3rem;
     margin: 5px 0px 5px 0px;
-    background-color: @bg-bright;
+    background-color: @bg;
     border-radius: 0;
     transition: none;
 }
@@ -58,7 +58,7 @@
 #memory {
     padding: 0.3rem 0.7rem;
     margin: 5px 0px;
-    color: @cyan;
+    color: @fg;
     background-color: @bg-bright;
 }
 
@@ -98,11 +98,11 @@
 #custom-recording {
     padding: 0.3rem 0.7rem;
     margin: 5px 0px;
-    color: @purple;
+    color: @fg;
     background-color: @purple-dark;
 }
 
 #custom-recording:hover {
-    color: @purple-bright;
+    color: @bg;
     background-color: @purple;
 }
