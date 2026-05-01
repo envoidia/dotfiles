@@ -32,14 +32,14 @@ rounded_borders = false
 #          RGB ("rgb(255,0,0)"), 8-bit ("196")
 
 # Border colors for each panel
-main_border_color = "#a4daff"      # Border color for the main info panel (top)
-apps_border_color = "#a4daff"      # Border color for the apps list panel (middle)
-input_border_color = "#a4daff"     # Border color for the input panel (bottom)
+main_border_color = "#66c8cc"      # Border color for the main info panel (top)
+apps_border_color = "#66c8cc"      # Border color for the apps list panel (middle)
+input_border_color = "#66c8cc"     # Border color for the input panel (bottom)
 
 # Text Colors (non-highlighted text in each panel)
-main_text_color = "#b5c0ff"        # Text color for the main info panel
-apps_text_color = "#b5c0ff"        # Text color for the apps list
-input_text_color = "#b5c0ff"       # Text color for the input field
+main_text_color = "#cccac2"        # Text color for the main info panel
+apps_text_color = "#cccac2"        # Text color for the apps list
+input_text_color = "#cccac2"       # Text color for the input field
 
 # Pin/Favorite Settings
 pin_color = "#32bb99"     # Color for pin icon (default: orange)
