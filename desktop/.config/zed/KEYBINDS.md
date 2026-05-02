@@ -39,7 +39,7 @@ Alt-Up/Down | Move line
 Ctrl-Alt-Up/Down | Duplicate line
 Ctrl-L | Select line
 Ctrl-/ | Comment/uncomment line/selection
-Hypr-K | Delete line
+Hypr-S | Delete line
 Ctrl-[/] | Outdent/indent line
 
 | Tabs || 

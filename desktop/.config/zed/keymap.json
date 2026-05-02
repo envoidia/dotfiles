@@ -672,12 +672,6 @@
     },
     {
         "context": "Editor",
-        "bindings": {
-            "ctrl-super-k": "editor::DeleteLine",
-        },
-    },
-    {
-        "context": "Editor",
         "unbind": {
             "ctrl-shift-k": "editor::DeleteLine",
         },
@@ -936,6 +930,11 @@
         "context": "Editor",
         "unbind": {
             "ctrl-shift-l": "editor::SelectAllMatches",
+        },
+    },
+    {
+        "bindings": {
+            "ctrl-super-s": "editor::DeleteLine",
         },
     },
     // workaround for terminal keystroke bug
