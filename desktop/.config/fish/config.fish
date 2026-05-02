@@ -1,3 +1,20 @@
+set -x BROWSER librewolf
+set -x EDITOR zeditor
+
+# enable file path completion
+# this is technically wrong for wl-copy, but i only use it via a wrapper, and adding it to the wrapper doesn't work
+complete -c wl-copy -F
+
+# fzf.fish
+set -l hypr ctrl-super
+set fzf_fd_opts -iH
+fzf_configure_bindings --directory=$hypr-f --git_log=$hypr-l --git_status=$hypr-s \
+    --history=$hypr-h --processes=$hypr-p --variables=$hypr-v
+
+# dotnet
+set PATH $PATH:/usr/share/dotnet:/home/envoidia/.dotnet/tools
+set DOTNET_ROOT /usr/share/dotnet
+
 ### aliases
 # basic file ops
 alias ls="lsd -A --hyperlink=auto"
@@ -20,20 +37,6 @@ alias z=zed
 alias drd="dragon-drop --and-exit"
 alias ic="kitten icat"
 alias cs=csharprepl
-
-# enable file path completion
-# this is technically wrong for wl-copy, but i only use it via a wrapper, and adding it to the wrapper doesn't work
-complete -c wl-copy -F
-
-# fzf.fish
-set -l hypr ctrl-super
-set fzf_fd_opts -iH
-fzf_configure_bindings --directory=$hypr-f --git_log=$hypr-l --git_status=$hypr-s \
-    --history=$hypr-h --processes=$hypr-p --variables=$hypr-v
-
-# dotnet
-set PATH $PATH:/usr/share/dotnet:/home/envoidia/.dotnet/tools
-set DOTNET_ROOT /usr/share/dotnet
 
 ### Colors
 # fd
