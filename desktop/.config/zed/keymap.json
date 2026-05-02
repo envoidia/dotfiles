@@ -356,7 +356,7 @@
     },
     {
         "bindings": {
-            "alt-t": "terminal_panel::Toggle",
+            "alt-q": "terminal_panel::Toggle",
         },
     },
     {
@@ -685,7 +685,7 @@
     {
         "context": "Editor",
         "bindings": {
-            "alt-q": "editor::SelectLargerSyntaxNode",
+            "alt-a": "editor::SelectLargerSyntaxNode",
         },
     },
     {
@@ -697,7 +697,7 @@
     {
         "context": "Editor",
         "bindings": {
-            "alt-w": "editor::SelectSmallerSyntaxNode",
+            "alt-s": "editor::SelectSmallerSyntaxNode",
         },
     },
     {
@@ -870,6 +870,72 @@
     {
         "bindings": {
             "shift-f9": "editor::ViewBookmarks",
+        },
+    },
+    {
+        "context": "BufferSearchBar",
+        "bindings": {
+            "alt-l": "search::ToggleSelection",
+        },
+    },
+    {
+        "context": "BufferSearchBar",
+        "unbind": {
+            "ctrl-l": "search::ToggleSelection",
+        },
+    },
+    {
+        "context": "Pane",
+        "bindings": {
+            "alt-l": "search::ToggleSelection",
+        },
+    },
+    {
+        "context": "Pane",
+        "unbind": {
+            "ctrl-alt-shift-l": "search::ToggleSelection",
+        },
+    },
+    {
+        "context": "Editor",
+        "unbind": {
+            "ctrl-f2": "editor::SelectAllMatches",
+        },
+    },
+    {
+        "context": "Pane",
+        "bindings": {
+            "ctrl-alt-l": "search::SelectAllMatches",
+        },
+    },
+    {
+        "context": "Pane",
+        "unbind": {
+            "alt-enter": "search::SelectAllMatches",
+        },
+    },
+    {
+        "context": "BufferSearchBar",
+        "bindings": {
+            "ctrl-alt-l": "search::SelectAllMatches",
+        },
+    },
+    {
+        "context": "BufferSearchBar",
+        "unbind": {
+            "alt-enter": "search::SelectAllMatches",
+        },
+    },
+    {
+        "context": "Editor",
+        "bindings": {
+            "ctrl-alt-l": "editor::SelectAllMatches",
+        },
+    },
+    {
+        "context": "Editor",
+        "unbind": {
+            "ctrl-shift-l": "editor::SelectAllMatches",
         },
     },
     // workaround for terminal keystroke bug

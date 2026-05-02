@@ -22,7 +22,7 @@ Shift-Tab | Outdent
 | Selection || 
 -|-
 Shift | Select while navigating
-Alt-Q/W | Expand/shrink selection
+Alt-A/S | Expand/shrink selection
 Ctrl-C | Copy
 Ctrl-X | Cut
 Ctrl-V | Paste
@@ -72,6 +72,7 @@ Hypr-T | Close other tabs in panel
 Alt-Shift-Up/Down | Create cursor up/down
 Alt-Click | Create cursor there
 Esc | Remove extra cursors
+Ctrl-Alt-L | Add cursor at and select every match for current word/highlight
 
 | Bookmarks ||
 -|-
@@ -128,7 +129,7 @@ Hypr-X | Extensions
 | Bottom Panel || 
 -|-
 Alt-D | Debug
-Alt-T | Terminal
+Alt-Q | Terminal
 
 | Search || 
 -|-
@@ -139,6 +140,10 @@ Alt-Enter | Open results in search editor
 Ctrl-S | Search editor apply changes
 F3 | Find next
 Shift-F3 | Find previous
+Alt-C | Toggle match case
+Alt-W | Toggle whole words
+Alt-R | Toggle Regex
+Alt-L | Toggle search in selection
 
 |Misc || 
 -|-
