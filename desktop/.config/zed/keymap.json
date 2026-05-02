@@ -356,7 +356,7 @@
     },
     {
         "bindings": {
-            "ctrl-super-1": "terminal_panel::Toggle",
+            "alt-t": "terminal_panel::Toggle",
         },
     },
     {
