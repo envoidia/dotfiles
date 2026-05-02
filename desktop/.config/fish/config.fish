@@ -37,6 +37,7 @@ alias z=zed
 alias drd="dragon-drop --and-exit"
 alias ic="kitten icat"
 alias cs=csharprepl
+alias 
 
 ### Colors
 # fd
