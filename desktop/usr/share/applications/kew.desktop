@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Version=4.0.0-1
+Name=kew
+GenericName=Music for the Shell
+Comment=kew (/kjuː/) is a terminal music player
+Icon=kew
+Exec=kew
+Terminal=true
+Categories=Audio;Music;ConsoleOnly;
+Keywords=audio;music;sound;mp3;ogg;opus
