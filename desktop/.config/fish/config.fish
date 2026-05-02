@@ -4,7 +4,7 @@ alias ls="lsd -A --hyperlink=auto"
 alias ll="ls -lS"
 alias lt="ls --tree"
 alias fd="fd -iH"
-alias rg="kitten hyperlinked-grep -i --hidden"
+alias rg="rg -i --hidden --hyperlink-format default"
 alias du=dust
 alias cat=bat
 alias mv="mv -i"
