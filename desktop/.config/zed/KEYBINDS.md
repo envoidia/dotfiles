@@ -30,10 +30,8 @@ Ctrl-A | Select All
 
 | Deletion || 
 -|-
-BkSp | Delete left
-Del | Delete right
-Hypr-BkSp | Delete all left
-Hypr-Del | Delete all right
+BkSp/Del | Delete left/right
+Hypr-BkSp/Del | Delete all left/right
 
 | Lines || 
 -|-
@@ -42,8 +40,7 @@ Ctrl-Alt-Up/Down | Duplicate line
 Ctrl-L | Select line
 Ctrl-/ | Comment/uncomment line/selection
 Hypr-K | Delete line
-Ctrl-[ | Outdent line
-Ctrl-] | Indent line
+Ctrl-[/] | Outdent/indent line
 
 | Tabs || 
 -|-
@@ -98,10 +95,8 @@ Alt-Enter | Open file from references/search view
 
 | Folding || 
 -|-
-Hypr-[ | Fold
-Hypr-] | Unfold
-Ctrl-K Ctrl-0 | Fold all
-Ctrl-K Ctrl-J | Unfold all
+Hypr-[/] | Fold/Unfold
+Ctrl-K Ctrl-0/J | Fold/unfold all
 Ctrl-K Ctrl-{Num} | Fold level {Num}
 
 | Debugging || 
