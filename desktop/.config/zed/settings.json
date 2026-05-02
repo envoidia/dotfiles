@@ -83,7 +83,7 @@
     // code
     "file_types": {
         "XML": ["csproj", "slnx", "resx"],
-        "TOML": ["conf"],
+        "TOML": ["conf", "dunstrc", "kewrc"],
     },
 
     "semantic_tokens": "combined",
