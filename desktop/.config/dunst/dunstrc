@@ -218,7 +218,7 @@
     # Dunst doesn't pass any flags to fnmatch, so you cannot make use of extended patterns.
     #
     # Note that this will eventually be true by default.
-    enable_posix_regex = false
+    enable_posix_regex = true
 
     ### Icons ###
 
@@ -505,6 +505,6 @@
 #    set_stack_tag = "volume"
 #
 
-[discord]
-appname = vesktop
+[messaging]
+appname = vesktop|Signal
 script = ~/.config/dunst/play_sound.fish

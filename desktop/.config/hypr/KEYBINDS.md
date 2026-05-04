@@ -11,7 +11,6 @@ Shift-{Num} | Move active window to {Num} workspace
 J | Change split direction
 LClick | Drag window
 RClick | Resize window
-Alt-V | Send clipboard to phone
 C | Kill focused window
 R | Open app launcher
 Q | Open terminal
@@ -20,8 +19,9 @@ S | Open editor
 V | Open clipboard history
 M | Open shutdown/reboot/logout/sleep/lock menu
 K | Open process killing menu
-H | Open help dialog
 G | Turn monitors on
+H | Open help dialog
+Alt-V | Send clipboard to phone
 
 | Other ||
 -|-
