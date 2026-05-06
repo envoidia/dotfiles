@@ -88,7 +88,13 @@
     // code
     "file_types": {
         "XML": ["csproj", "slnx", "resx"],
-        "TOML": ["conf", "dunstrc", "kewrc"],
+        "TOML": ["conf", "properties", "dunstrc", "kewrc"],
+    },
+
+    "languages": {
+        "TOML": {
+            "soft_wrap": "editor_width",
+        },
     },
 
     "semantic_tokens": "combined",
