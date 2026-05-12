@@ -34,10 +34,11 @@ alias zed=zeditor
 alias z=zed
 
 # open important files
-alias dreams="zeditor ~/important/resources/dreams.md"
-alias todo="zeditor ~/important/serious/TODO.md"
+alias dreams="$EDITOR ~/important/resources/dreams.md"
+alias todo="$EDITOR ~/important/serious/TODO.md"
 
 # other
+alias ping=prettyping
 alias drd="dragon-drop --and-exit"
 alias ic="kitten icat"
 alias cs=csharprepl

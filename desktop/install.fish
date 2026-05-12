@@ -31,6 +31,7 @@ paru -S fd ripgrep dust noto-fonts-emoji pavucontrol ffmpeg yt-dlp hyprland libn
 
 # config
 ~
+git clone https://github.com/envoidia/dotfiles
 dotfiles/desktop/
 mv .config ~
 sudo mv etc/keyd/default.conf /etc/keyd/
@@ -80,11 +81,7 @@ echo 'MGFXC_WINE_PATH="'$HOME'/.winemonogame"' | sudo tee -a /etc/environment
 paru -R 7zip wget
 
 # ProjectCelosia
-ln -s important/creative/sudo pacman -S fish
-
-git clone https://github.com/envoidia/dotfiles
-dotfiles/
-chmod +x install.fish && ./install.fishprogramming/ProjectCelosia ProjectCelosia
+ln -s important/creative/programming/ProjectCelosia ProjectCelosia
 ProjectCelosia/
 dotnet tool restore
 
