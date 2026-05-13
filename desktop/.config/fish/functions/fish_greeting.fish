@@ -10,7 +10,6 @@ function fish_greeting
         "Let your tears run free, let out your heart" \
         # Hibana
         "I've said it's incomplete so many times, hey\nTrapped inside a love I know I can't escape" \
-        \
         ## KAT
         # Affection Addiction
         "I think I'm addicted, I'm addicted to love" \
@@ -23,7 +22,6 @@ function fish_greeting
         "Love is an incision that cuts deeper than a knife" \
         # Pull the Trigger
         "TAKE ONE LOOK AT ME, I'LL BE YOUR MEMENTO MORI" \
-        \
         ## PinnochioP
         # I'm glad you're evil too
         "Our time is finite, yet it feels like an unending joke" \
@@ -39,7 +37,6 @@ function fish_greeting
         # Don't Believe in T
         "If it feels good, Even poison's fine to drink" \
         "\"Stop depending on fake love,\" they say\nDon't tell me, I beg you\nIf I don't blindly believe, I'll go crazy" \
-        \
         ## tart
         # BLADEDANCE
         "underneath your blade\nwant it in the worst way\ni'm reeling, but you're tearing me apart" \
@@ -48,7 +45,6 @@ function fish_greeting
         # deluge
         "THE STARS DIVIDING TAKE THEIR FINAL BREATH" \
         "i had a dream about you last night\nit ended when we died" \
-        \
         ## Crusher
         # ECHO
         "The echo in the mirror" \
@@ -57,7 +53,6 @@ function fish_greeting
         "I'd rather be my own best friend than my worst enemy" \
         "I'm one day closer to being who I wanna be" \
         "Everything that happened was for the best" \
-        \
         ## KIRA
         # 4BLOOD
         "Cut the cord, burn the witch and\nYou'll regret what you're missing" \
@@ -65,7 +60,6 @@ function fish_greeting
         "When you look at me, who do you remember?\nBroken memories, time we spent together\nTell me honestly, do you recognize my voice?" \
         # i DO what i WANT
         "Baby I am just a Bad girl with an EGO\nCan't help living in my own world\nCall me evil" \
-        \
         ## CircusP
         # Ten Thousand Stars
         "Set ablaze, I'll shine brighter than the stars" \
@@ -82,7 +76,6 @@ function fish_greeting
         "A new constellation will lead us to boundless odyssey" \
         # Intergalactic Bound
         "There's a universe of positivity beyond the sky" \
-        \
         ## Kairiki Bear
         # Bug
         "Brain about to break , I'm crazy no matter what I say!! I'm lost and drunk on darkness,\nHey! Peek-a- Peek-a-boo Hey! Peek-a-boo-hoo! X (Failed) you!" \
@@ -90,13 +83,11 @@ function fish_greeting
         "IS my mind already cracked?" \
         # Ruma
         "Scream out all your feelings and Ha-ha-hack them all to bits" \
-        \
         ## Mili
         # Through Patches of Violet
         "I could be the reason why you were able to be kind" \
         # world.execute(me);
         "If I'm the only god, then you're the proof of my existence" \
-        \
         ## Persona
         # Counter-strike
         "Oh, never forget to show your true colors\nOh, never forget to question destiny\nYou can be more than a puppet" \
@@ -106,7 +97,6 @@ function fish_greeting
         "It's our turn to get back\nTo grab the future which we fully believe" \
         # You Are Stronger
         "You are stronger than all things that made you weak" \
-        \
         ## Other
         # VENOMPHILE
         "If poison's all that you can prescribe\nThen savor the taste and catch a vibe" \
@@ -153,11 +143,8 @@ function fish_greeting
         "I don't care if it's through the screen, love me properly\nEven if I'm virtual, don't push me away" \
         # F☺️☺️lish
         "Razor blade drawings, color and ruin" \
-        # Patches of Violet
-        "I could be the reason why you were able to be kind" \
         # UNDEFEATABLE
         "I'm what you get when the stars collide" \
-        \
         ### Misc
         # Touhou 8: Imperishable Night
         "\"You have remained long enough in this filthy world.\" Then, all the locked doors opened, untouched--" \
