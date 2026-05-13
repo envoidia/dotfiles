@@ -1,7 +1,7 @@
 /**
  * @name Debloat
  * @author envoidia
- * @version 28/04/26
+ * @version 13/05/26
  * @description Removes bloat from Discord
  * @source https://github.com/envoidia/dotfiles
  * @website https://envoidia.neocities.org
@@ -12,10 +12,6 @@ button[aria-label="Boost this server"],
 .button__74017,
 .button_e6e74f,
 .attachWrapper__0923f,
-
-/* Channels & Roles / Browse Channels button */
-#channels li[role="button"],
-.sectionDivider__68d2a,
 
 /* Super reactions */
 [aria-label="Add Super Reaction"],
@@ -44,9 +40,6 @@ a[href="/store"], a[href="/shop"],
 
 /* Quests */
 a[href="/quest-home"],
-
-/* Checkpoint */
-._85643a485899904b-button,
 
 /* Mark unread button */
 div[role="button"][aria-label="Mark Unread"],
@@ -92,8 +85,11 @@ div[role="button"][aria-label="Mark Unread"],
 /* Boost tab in server */
 .basicChannelRowLink__2ea32,
 
-/* Gift and gif buttons in profile message bar  */
-.icon-only_a22cb0,
+/* close/left/right buttons when viewing image */
+.button_aec7ab,
+
+/* zoom/forward/open in browser/more buttons when viewing image */
+.actionButtons_cc1819,
 
 /* Commonly used divider to create whitespace around elements this deletes */
 div[style="height: 12px;"] {
