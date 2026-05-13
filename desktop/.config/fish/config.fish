@@ -18,6 +18,7 @@ set DOTNET_ROOT /usr/share/dotnet
 ### aliases
 # basic file ops
 alias ls="lsd -A --hyperlink=auto"
+alias lr="ls -R"
 alias ll="ls -lS"
 alias lt="ls --tree"
 alias fd="fd -iH"
