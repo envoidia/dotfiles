@@ -28,6 +28,11 @@ alias cat=bat
 alias mv="mv -i"
 alias cp="cp -i"
 
+# package management
+alias update="paru && paru -c"
+alias install="paru -S"
+alias uninstall="paru -R"
+
 # editors
 alias vim=nvim
 alias v=vim
