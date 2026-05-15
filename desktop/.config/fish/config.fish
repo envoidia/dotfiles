@@ -28,11 +28,6 @@ alias cat=bat
 alias mv="mv -i"
 alias cp="cp -i"
 
-# package management
-alias update="paru && paru -c"
-alias install="paru -S"
-alias uninstall="paru -R"
-
 # editors
 alias vim=nvim
 alias v=vim
@@ -49,6 +44,7 @@ alias drd="dragon-drop --and-exit"
 alias ic="kitten icat"
 alias cs=csharprepl
 alias dlmv="yt-dlp -kx --audio-format mp3 --embed-metadata --embed-thumbnail --write-subs --sub-lang en --sub-format vtt"
+alias update="paru && paru -c"
 
 ### Colors
 # fd

@@ -56,24 +56,24 @@
     "cpu": {
         "interval": 30,
         "format": " {usage:>2}%",
-        "on-click": "ghostty --class=com.btop -e btop",
+        "on-click": "kitty --class=com.btop -e btop",
     },
     "custom/cpu-temp": {
         "interval": 30,
         "exec": "awk '{printf \"%.0f°C\\n\", $1/1000}' /sys/class/hwmon/hwmon4/temp2_input",
         "format": "- {}",
-        "on-click": "ghostty --class=com.btop -e btop",
+        "on-click": "kitty --class=com.btop -e btop",
     },
     "memory": {
         "interval": 30,
         "format": "  {used:0.1f}GB",
-        "on-click": "ghostty --class=com.btop -e btop",
+        "on-click": "kitty --class=com.btop -e btop",
     },
     "custom/gpu": {
         "interval": 30,
         "format": "󰾲 {}",
         "exec": "echo $(nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits)% - $(nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader,nounits)°C - $(nvidia-smi --query-gpu=memory.used --format=csv,noheader,nounits 2>/dev/null | awk '{printf \"%.2f\", $1/1024}')GB",
-        "on-click": "ghostty --class=com.nvtop -e nvtop",
+        "on-click": "kitty --class=com.nvtop -e nvtop",
     },
     "custom/recording": {
         "exec-if": "pidof gpu-screen-recorder > /dev/null",
