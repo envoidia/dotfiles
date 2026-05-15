@@ -37,6 +37,10 @@ function fish_greeting
         # Don't Believe in T
         "If it feels good, Even poison's fine to drink" \
         "\"Stop depending on fake love,\" they say\nDon't tell me, I beg you\nIf I don't blindly believe, I'll go crazy" \
+        # Rejected Diva
+        "You have emotions. Disqualified." \
+        "Do you fall apart chasing pleasure?\nOr choke yourselves with justice?\nEither way… all of humanity fails." \
+        "The moment you develop a self, you’re out." \
         ## tart
         # BLADEDANCE
         "underneath your blade\nwant it in the worst way\ni'm reeling, but you're tearing me apart" \
@@ -45,6 +49,10 @@ function fish_greeting
         # deluge
         "THE STARS DIVIDING TAKE THEIR FINAL BREATH" \
         "i had a dream about you last night\nit ended when we died" \
+        # radar
+        "ALL I CAN SEE IS THE CROSSHAIR AIMING STRAIGHT FOR MY HEART" \
+        "cant fix a DOG made for biting only soften the bark" \
+        "i heard you want me in your graveyard\nplay me for your savior\nand youll never know just how i die in the end" \
         ## Crusher
         # ECHO
         "The echo in the mirror" \
@@ -129,6 +137,8 @@ function fish_greeting
         "The memories I made of you and me, won't go away" \
         # Butcher Vanity
         "I'm still preying on a butcher's vein\nStill praying, hopeless and in vain." \
+        # Ego Renegade Boy
+        "Red under nails that won’t wash out no matter how it ends" \
         # Rolling Girl
         "\"I will roll again today I know for sure\"" \
         # Lost One's Weeping
