@@ -17,7 +17,7 @@ highlight_color = "#bb94de"
 cursor = "|"
 
 # Command to launch terminal apps (apps with Terminal=true). Use "tty" for TTY mode (same as -t/--tty).
-terminal_launcher = "kitty -e"
+terminal_launcher = "ghostty -e"
 
 # Don't wrap around at list ends (false = wrap around)
 hard_stop = false

@@ -47,8 +47,7 @@ themes/
 mv btop/SeleneAbyss.theme ~/.config/btop/themes/
 mv discord/selene_abyss.css ~/.config/vesktop/themes/
 mv gtk-css/selene_abyss.css ~/.config/
-cp kitty/selene_abyss.conf ~/.config/kitty/themes/
-mv kitty/selene_abyss.conf ~/.config/kitty/current-theme.conf
+mv ghostty/selene_abyss ~/.config/ghostty/themes/
 mv textmate/selene_abyss.tmTheme ~/.config/bat/themes/
 
 qt6ct
