@@ -394,7 +394,7 @@
         },
     },
     {
-        "context": "Editor && extension == md",
+        "context": "Editor",
         "bindings": {
             "ctrl-shift-v": "markdown::OpenPreviewToTheSide",
         },
@@ -406,7 +406,7 @@
         },
     },
     {
-        "context": "Editor && extension == md",
+        "context": "Editor",
         "bindings": {
             "ctrl-alt-v": "markdown::OpenPreview",
         },
