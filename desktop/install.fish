@@ -98,4 +98,4 @@ sudo systemctl enable --now keyd
 # cleanup
 paru -c
 
-# manually set up librewolf, dunst, vesktop, sudoers, and timezone, then reboot
+# manually set up remaining stuff, then reboot

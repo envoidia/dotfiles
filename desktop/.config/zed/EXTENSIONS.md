@@ -1,6 +1,7 @@
 # Extensions
 ### General
 - Color Highlight
+- [Selene Abyss Theme](https://github.com/envoidia/zed-selene-abyss)
 
 ### Lang-Specific
 - C#

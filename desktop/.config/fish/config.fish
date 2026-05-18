@@ -1,4 +1,4 @@
-set -x BROWSER librewolf
+set -x BROWSER helium-browser
 set -x EDITOR zeditor
 
 # enable file path completion
