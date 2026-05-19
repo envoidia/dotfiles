@@ -334,7 +334,7 @@
     },
     {
         "bindings": {
-            "alt-d": "debug_panel::Toggle",
+            "ctrl-super-d": "debug_panel::Toggle",
         },
     },
     {
@@ -356,7 +356,7 @@
     },
     {
         "bindings": {
-            "alt-q": "terminal_panel::Toggle",
+            "ctrl-super-q": "terminal_panel::Toggle",
         },
     },
     {
@@ -772,12 +772,6 @@
     },
     {
         "context": "Workspace",
-        "bindings": {
-            "ctrl-super-n": "workspace::NewWindow",
-        },
-    },
-    {
-        "context": "Workspace",
         "unbind": {
             "ctrl-shift-n": "workspace::NewWindow",
         },
@@ -948,6 +942,11 @@
             "ctrl-super-h": ["terminal::SendText", "\u001b[104;13u"],
             "ctrl-super-p": ["terminal::SendText", "\u001b[112;13u"],
             "ctrl-super-v": ["terminal::SendText", "\u001b[118;13u"],
+        },
+    },
+    {
+        "bindings": {
+            "ctrl-shift-n": "workspace::NewWindow",
         },
     },
 ]

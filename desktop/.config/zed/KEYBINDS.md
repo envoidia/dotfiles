@@ -123,8 +123,8 @@ Hypr-X | Extensions
 
 | Bottom Panel || 
 -|-
-Alt-D | Debug
-Alt-Q | Terminal
+Hypr-D | Debug
+Hypr-Q | Terminal
 
 | Search || 
 -|-
@@ -151,6 +151,6 @@ Ctrl-K Ctrl-S | Keybinds
 Ctrl-K Ctrl-M | Select language
 Ctrl-Alt-V | Preview markdown
 Ctrl-Shift-V | Preview markdown to the side
-Hypr-N | New window
+Ctrl-Shift-N | New window
 Ctrl-K Ctrl-O | Open folder
 Alt-R | Open recent project
