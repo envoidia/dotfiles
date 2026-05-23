@@ -137,6 +137,12 @@ function fish_greeting
         "If you’re alive, blood should be flowing" \
         # Positive Result
         "And I can't control\nwhat's controlling me and\nliving while I'm dying every day" \
+        # T0LERATE
+        "so i ask and i beg of you\nto leave me behind" \
+        "I DON'T WANNA BE T0LERATED" \
+        # World End Credits
+        "There is no ending for me" \
+        "Witnessing the distance growing further from my eyes\nFrom the start it led to goodbye" \
         # Pathological Facade
         "The Tower's gonna fall, and you'll silently rebuild it all" \
         # Mind Brand
