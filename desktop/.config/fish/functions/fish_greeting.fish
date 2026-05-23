@@ -126,6 +126,10 @@ function fish_greeting
         "Can you teach me to be real?" \
         "I want it to be true, to be like you\nMy heart sings a chorus out of tune" \
         "As long as there are stars up above\nI will always be in love" \
+        # Under My Heel
+        "Watch you sink deeper and deeper\nKeep offering it all\nEverything to me" \
+        # Blue Shift
+        "Can't erase, I can't get over you" \
         # melt ice cream
         "I'll give you sweet ICE\nLove me until you die" \
         # ANTONYMPH
