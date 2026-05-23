@@ -41,7 +41,6 @@ alias todo="$EDITOR ~/important/serious/TODO.md"
 # other
 alias ping=prettyping
 alias drd="dragon-drop --and-exit"
-alias ic="kitten icat"
 alias cs=csharprepl
 alias dlmv="yt-dlp -kx --audio-format mp3 --embed-metadata --embed-thumbnail --write-subs --sub-lang en --sub-format vtt"
 

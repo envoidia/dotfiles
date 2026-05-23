@@ -130,6 +130,13 @@ function fish_greeting
         "I'll give you sweet ICE\nLove me until you die" \
         # ANTONYMPH
         "It's never too late\nTo fall in love with the world\nYour past is not today\nSo set your stride with a twirl" \
+        # Voices In My Head
+        "Chaos, order, made-up horrors, in my fractured brain\nHaunted by words I’ve never said, I’m a prisoner to the voices in my head" \
+        "Imagine not knowing what your actions are gonna be\nIt feels like you've been stripped of all of your autonomy" \
+        # Memory
+        "If you’re alive, blood should be flowing" \
+        # Positive Result
+        "And I can't control\nwhat's controlling me and\nliving while I'm dying every day" \
         # Pathological Facade
         "The Tower's gonna fall, and you'll silently rebuild it all" \
         # Mind Brand

@@ -21,7 +21,7 @@ paru -R paru-debug
 rm -rf paru
 
 # packages
-paru -S fd ripgrep dust noto-fonts-emoji pavucontrol ffmpeg yt-dlp hyprland libnotify lsd dunst \
+paru -S fd ripgrep dust noto-fonts-emoji pavucontrol ffmpeg yt-dlp hyprland libnotify lsd dunst paccache-hook \
     xdg-desktop-portal-hyprland fsel hyprpicker grimblast-git waybar cclip kitty qview librewolf-bin vesktop-bin mpv \
     hyfetch ark hyprpaper fastfetch qt6ct nwg-look noto-fonts noto-fonts-cjk noto-fonts-emoji fish-done \
     noto-fonts-extra ttf-noto-nerd ttf-koruri bat fzf mpv-mpris mpv-thumbfast-git mpv-uosc nvtop btop \
