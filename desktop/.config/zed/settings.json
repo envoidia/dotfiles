@@ -95,6 +95,10 @@
         "TOML": {
             "soft_wrap": "editor_width",
         },
+        "CSharp": {
+            // fix caret jumping bug
+            "use_on_type_format": false,
+        },
     },
 
     "semantic_tokens": "combined",
